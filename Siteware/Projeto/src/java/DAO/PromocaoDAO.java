@@ -121,7 +121,7 @@ public class PromocaoDAO {
         }
     }
     
-    public boolean inserirLivro(Promocao l){
+    public boolean inserirPromocao(Promocao l){
         Connection con = new Conexao().conectar();
         String sql = "INSERT INTO promocao (nome_promocao) VALUES (?)";
         

@@ -24,7 +24,7 @@
         %>        
         
         <br><br><br>
-        <a href="AluguelController?operacao=1">Listagem</a>
+        <a href="index.jsp">Listagem</a>
     </center>
 </body>
 </html>

@@ -55,18 +55,29 @@
                     for (int cont = 0; cont < produtos.size(); cont++) {
                     Produtos p = new Produtos();
                     p = (Produtos) produtos.get(cont);
+                        out.print("<form name='frm' method='post' action='CarrinhoController?operacao=3' enctype='multipart/form-data'>");
+                        out.print("<input type='hidden' name='id_produto' value='"+ p.getIdProduto() +"'>");
                         out.print("<div class='row' style='margin-left: 60px'>");
                             out.print("<div class='col-sm-3'>");
                                 out.print("<div class='card text-center' style='width: 18rem;'>");
                                     out.print("<div class='card-body'>");
                                     out.print("<h5 class='card-title'>" + p.getNome() + "</h5>");
                                     out.print("<p class='card-text'> R$ " + p.getValor() + "</p>");
+                                    out.print("<select class='form-select' aria-label='Default select example'>");
+                                        out.print("<option selected'> Escolha a qtd </option>");
+                                        out.print("<option value='1' name='qtd_itens'> 1 </option>");
+                                        out.print("<option value='2' name='qtd_itens'> 2 </option>");
+                                        out.print("<option value='3' name='qtd_itens'> 3 </option>");
+                                        out.print("<option value='4' name='qtd_itens'> 4 </option>");
+                                        out.print("<option value='5' name='qtd_itens'> 5 </option>");
+                                        out.print("</select>");
                                     out.print("<br>");
-                                    out.print("<button class='btn btn-success' type='submit'><a href='login.jsp' style='text-decoration: none; color: white;'>Adicionar ao carrinho</a></button>");
+                                    out.print("<button class='btn btn-success' type='submit'>Adicionar ao carrinho</button>");
                                     out.print("</div>");
                                 out.print("</div>");
                             out.print("</div>");
                         out.print("</div>");
+                        out.print("</form>");
                     }
                 }
             %>

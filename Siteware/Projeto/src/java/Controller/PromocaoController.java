@@ -80,7 +80,7 @@ public class PromocaoController extends HttpServlet {
                 String titulo = request.getParameter("nome_promocao");
                 Promocao pNovo = new Promocao();
                 pNovo.setNomePromocao(titulo);
-                if(p.inserirLivro(pNovo)){
+                if(p.inserirPromocao(pNovo)){
                      response.sendRedirect("resultadoPromocao.jsp?operacao=1");
                 }else{
                     response.sendRedirect("resultadoPromocao.jsp?operacao=2");                

@@ -1,4 +1,11 @@
-<!doctype html>
+ <%@page import="java.util.List"%>
+ <%@page import= "VO.Produtos" %>
+ <%@page import= "DAO.ProdutosDAO" %>
+ <%@page import= "VO.Carrinho" %>
+ <%@page import= "DAO.CarrinhoDAO" %>
+ <%@ page import="java.sql.*" %>
+<%@page import= "Conexao.Conexao" %>
+
 <html lang="en" data-bs-theme="auto">
   <head><script src="../assets/js/color-modes.js"></script>
 
@@ -104,82 +111,72 @@
     <div class="py-5 text-center">
       <h2>Checkout form</h2></div>
 
-    <div class="row g-5">
-      <div class="col-md-5 col-lg-4 order-md-last">
+    <div class="row g-6">
+      <div class="col-md-6 col-lg-4 order-md-last">
         <h4 class="d-flex justify-content-between align-items-center mb-3">
           <span class="text-primary">Carrinho</span>
-          <span class="badge bg-primary rounded-pill">3</span>
-        </h4>
-        <ul class="list-group mb-3">
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Nome Produto</h6>
-              <small class="text-body-secondary">Brief description</small>
-            </div>
-            <span class="text-body-secondary">R$12</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Second product</h6>
-              <small class="text-body-secondary">Brief description</small>
-            </div>
-            <span class="text-body-secondary">R$8</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Third item</h6>
-              <small class="text-body-secondary">Brief description</small>
-            </div>
-            <span class="text-body-secondary">R$5</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
-            <div class="text-success">
-              <h6 class="my-0">Promo code</h6>
-              <small>EXAMPLECODE</small>
-            </div>
-            <span class="text-success">‚àíR$5</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between">
-            <span>Total (R$)</span>
-            <strong>R$20</strong>
+          <%
+              CarrinhoDAO carDAO = new CarrinhoDAO();
+              PreparedStatement ps; // estrutura o sql
+                ResultSet rs; //armazenar· o resultado do bd
+                Connection con; //conex„o com o bd
+
+                con = new Conexao().conectar();
+                
+                String sql = "SELECT id_carrinho, produto.id_produto, produto_nome, produto_valor, id_cliente, itens_qtd FROM carrinho INNER JOIN produto ON produto.id_produto = carrinho.id_produto";
+                ps = con.prepareStatement(sql);
+                rs = ps.executeQuery();
+                
+              request.setAttribute("listaItensCarrinho", carDAO.buscaItensCarrinho());
+              List carrinho = (List) request.getAttribute("listaItensCarrinho");
+              
+              out.print("<span class='badge bg-primary rounded-pill'>"+ carrinho.size() +"</span>");
+              out.print("<h4>");
+              Carrinho carr = new Carrinho();
+                    for (int cont = 0; cont < carrinho.size(); cont++) {
+                        
+                        carr = (Carrinho) carrinho.get(cont);
+                        out.print("<ul class='list-group mb-3'>");
+                            out.print("<li class='list-group-item d-flex justify-content-between lh-sm'>");
+                                out.print("<div>");
+                                    out.print("<h6 class='my-0'>Nome Produto</h6>");
+                                    out.print("<small class='text-body-secondary'>"+ carr.getProdutoNome() +"</small>");
+                                out.print("</div>");
+                                out.print("<p class='text-body-secondary'>R$   QTD.</p>");
+                                out.print("<p class='text-body-secondary'> " + carr.getProdutoValor() + " " + carr.getItens_qtd() +"</p>");
+                            out.print("</li>");
+                }
+              out.print("</h4>");
+              out.print("<li class='list-group-item d-flex justify-content-between'>");
+              Double somaTotal = 0.0;
+                  while(rs.next()){
+                    somaTotal = carr.getProdutoValor() * carr.getItens_qtd();
+                  }
+              out.print("<span> Total R$ " + somaTotal + "</span>");
+          %>
+<!--        </h4>
+          <li class="list-group-item d-flex justify-content-between">-->
+              
           </li>
         </ul>
-
-        <form class="card p-2">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Promo code">
-            <button type="submit" class="btn btn-secondary">Redeem</button>
-          </div>
-        </form>
       </div>
-      <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3">Endere√ßo</h4>
-        <form class="needs-validation" novalidate>
-          <div class="row g-3">
+      <div class="col-md-6 col-lg-8">
+        <h4 class="mb-3">EndereÁo</h4>
+        <form class="needs-validation" name="frm" method="post" action="CarrinhoController?operacao=2" enctype="multipart/form-data" novalidate>
+            <div class="row g-3">
             <div class="col-sm-6">
               <label for="firstName" class="form-label">Primeiro nome</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" >
               <div class="invalid-feedback">
-                Primeiro nome √© requerido.
+                Primeiro nome È requerido.
               </div>
             </div>
 
             <div class="col-sm-6">
               <label for="lastName" class="form-label">Ultimo nome</label>
-              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" >
               <div class="invalid-feedback">
-                Ultimo nome √© requerido.
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="username" class="form-label">Login</label>
-              <div class="input-group has-validation">
-                <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Username" required>
-              <div class="invalid-feedback">
-                  Seu usuario √© requerido.
-                </div>
+                Ultimo nome È requerido.
               </div>
             </div>
 
@@ -187,15 +184,15 @@
               <label for="email" class="form-label">Email <span class="text-body-secondary">(Opcional)</span></label>
               <input type="email" class="form-control" id="email" placeholder="email@example.com">
               <div class="invalid-feedback">
-                Coloque o email para que voc√™ receba feedback.
+                Coloque o email para que vocÍ receba feedback.
               </div>
             </div>
 
             <div class="col-12">
-              <label for="address" class="form-label">Endere√ßo</label>
-              <input type="text" class="form-control" id="address" placeholder="Rua teste, 255" required>
+              <label for="address" class="form-label">EndereÁo</label>
+              <input type="text" class="form-control" id="address" placeholder="Rua teste, 255" >
               <div class="invalid-feedback">
-                Coloque o endere√ßo, por favor.
+                Coloque o endereÁo, por favor.
               </div>
             </div>
 
@@ -206,7 +203,7 @@
 
             <div class="col-md-5">
               <label for="country" class="form-label">Pais</label>
-              <select class="form-select" id="country" required>
+              <select class="form-select" id="country" >
                 <option value="">Escolha...</option>
                 <option>Brasil</option>
               </select>
@@ -217,9 +214,9 @@
 
             <div class="col-md-4">
               <label for="state" class="form-label">Estado</label>
-              <select class="form-select" id="state" required>
+              <select class="form-select" id="state" >
                 <option value="">Escolha...</option>
-                <option>S√£o Paulo</option>
+                <option>S„o Paulo</option>
                 <option>Belo Horizonte</option>
                 <option>Mato Grosso </option>
                 <option>Rio de Janeiro</option>
@@ -232,9 +229,9 @@
 
             <div class="col-md-3">
               <label for="zip" class="form-label">CEP</label>
-              <input type="text" class="form-control" id="zip" placeholder="" required>
+              <input type="text" class="form-control" id="zip" placeholder="" >
               <div class="invalid-feedback">
-                CEP √© requerido.
+                CEP È requerido.
               </div>
             </div>
           </div>
@@ -243,7 +240,7 @@
 
           <div class="form-check">
             <input type="checkbox" class="form-check-input" id="save-info">
-            <label class="form-check-label" for="save-info">Salvar as informa√ß√µes para proxima compra</label>
+            <label class="form-check-label" for="save-info">Salvar as informaÁıes para proxima compra</label>
           </div>
 
           <hr class="my-4">
@@ -252,50 +249,50 @@
 
           <div class="my-3">
             <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-              <label class="form-check-label" for="credit">Cart√£o de Credito</label>
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked >
+              <label class="form-check-label" for="credit">Cart„o de Credito</label>
             </div>
             <div class="form-check">
-              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="debit">Cart√£o de Debito</label>
+              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" >
+              <label class="form-check-label" for="debit">Cart„o de Debito</label>
             </div>
             <div class="form-check">
-              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" >
               <label class="form-check-label" for="paypal">Pix</label>
             </div>
           </div>
 
           <div class="row gy-3">
             <div class="col-md-6">
-              <label for="cc-name" class="form-label">Nome no cart√£o</label>
-              <input type="text" class="form-control" id="cc-name" placeholder="" required>
-              <small class="text-body-secondary">Nome completo impresso no cart√£o</small>
+              <label for="cc-name" class="form-label">Nome no cart„o</label>
+              <input type="text" class="form-control" id="cc-name" placeholder="" >
+              <small class="text-body-secondary">Nome completo impresso no cart„o</small>
               <div class="invalid-feedback">
-                Nome no cart√£o √© requerido.
+                Nome no cart„o È requerido.
               </div>
             </div>
 
             <div class="col-md-6">
-              <label for="cc-number" class="form-label">Numero do cart√£o</label>
-              <input type="text" class="form-control" id="cc-number" placeholder="" required>
+              <label for="cc-number" class="form-label">Numero do cart„o</label>
+              <input type="text" class="form-control" id="cc-number" placeholder="" >
               <div class="invalid-feedback">
-                Numero do cart√£o √© requerido
+                Numero do cart„o È requerido
               </div>
             </div>
 
             <div class="col-md-3">
               <label for="cc-expiration" class="form-label">Validade</label>
-              <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="" >
               <div class="invalid-feedback">
-                  Data de validade √© requerida
+                  Data de validade È requerida
               </div>
             </div>
 
             <div class="col-md-3">
               <label for="cc-cvv" class="form-label">CVV</label>
-              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" >
               <div class="invalid-feedback">
-                CVV √© requerido
+                CVV È requerido
               </div>
             </div>
           </div>

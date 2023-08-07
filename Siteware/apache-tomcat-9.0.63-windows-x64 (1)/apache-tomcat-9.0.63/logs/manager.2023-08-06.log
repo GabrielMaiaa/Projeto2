@@ -222,3 +222,9 @@
 06-Aug-2023 23:28:20.293 INFORMAÇÕES [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Loja/index.jsp'
 06-Aug-2023 23:31:30.083 INFORMAÇÕES [http-nio-8080-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
 06-Aug-2023 23:31:30.094 INFORMAÇÕES [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Loja/index.jsp'
+06-Aug-2023 23:34:28.194 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+06-Aug-2023 23:34:28.194 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+06-Aug-2023 23:34:28.227 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+06-Aug-2023 23:34:28.243 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Loja/index.jsp'
+06-Aug-2023 23:34:28.789 INFORMAÇÕES [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Pichau/AppData/Local/Temp/context6287612647174243258.xml'
+06-Aug-2023 23:34:29.395 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Loja/index.jsp'

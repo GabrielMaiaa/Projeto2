@@ -1567,3 +1567,8 @@ Stacktrace:] with root cause
 		at java.lang.Thread.run(Thread.java:750)
 06-Aug-2023 23:31:39.009 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
 06-Aug-2023 23:31:39.009 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Aug-2023 23:34:26.276 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Aug-2023 23:34:26.276 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Aug-2023 23:34:26.279 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4ef37659')
+06-Aug-2023 23:34:47.995 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Aug-2023 23:34:47.995 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

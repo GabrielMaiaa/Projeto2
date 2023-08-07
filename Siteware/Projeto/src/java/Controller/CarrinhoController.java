@@ -5,6 +5,8 @@
 package Controller;
 
 import DAO.CarrinhoDAO;
+import DAO.ProdutosDAO;
+import VO.Carrinho;
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -43,29 +45,30 @@ public class CarrinhoController extends HttpServlet {
                 rd.forward(request, response);
                 break;
             case 2: // exclusão
-                id = Integer.parseInt(request.getParameter("id"));
-                if(car.excluir(id)){
+                if(car.excluir()){
                      response.sendRedirect("resultadoAluguel.jsp?operacao=1");
                 }else{
                     response.sendRedirect("resultadoAluguel.jsp?operacao=2");                
                 }
+                break;
             case 3:
+                request.setAttribute("listaItensCarrinho", car.buscaItensCarrinho());
                 RequestDispatcher rd2 = request.getRequestDispatcher("/checkout.jsp");
                 rd2.forward(request, response);
                 
-                String nome = request.getParameter("nome");
-                Double valor = Double.parseDouble(request.getParameter("valor"));
-                int idPromocao = Integer.parseInt(request.getParameter("id_promocao"));
+                int id_produto = Integer.parseInt(request.getParameter("id_produto"));
+                int id_cliente = 1;
+                int itens_qtds = Integer.parseInt(request.getParameter("qtd_itens"));
                 
-                Carrinho car = new Carrinho();
-                
-                ProdutosDAO produtoDAO2 = new ProdutosDAO();
-                boolean sucesso2 = produtoDAO2.inserirProduto(pNovo);
+                Carrinho carrinho = new Carrinho();
+                carrinho.setId_produto(id_produto);
+                carrinho.setId_cliente(id_cliente);
+                carrinho.setItens_qtd(itens_qtds);
  
-                if(sucesso2){
-                     response.sendRedirect("resultado.jsp?operacao=1");
+                if(car.inserirItensCarrinho(carrinho)){
+                     response.sendRedirect("index.jsp");
                 }else{
-                    response.sendRedirect("resultado.jsp?operacao=2");                
+                    response.sendRedirect("index.jsp");                
                 }
                 break;    
         }

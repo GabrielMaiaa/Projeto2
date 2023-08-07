@@ -25,23 +25,24 @@ public class CarrinhoDAO {
         try {
             con = new Conexao().conectar();
             if (con != null) {
-                String sql = "SELECT id_carrinho, produto.id_produto, produto.nome_produto, id_cliente, itens_qtds FROM carrinho"
-                        + "INNER JOIN produto ON produto.id_produto = carrinho.id_produto";
+                String sql = "SELECT id_carrinho, produto.id_produto, produto_nome, produto_valor, id_cliente, itens_qtd FROM carrinho INNER JOIN produto ON produto.id_produto = carrinho.id_produto";
                 ps = con.prepareStatement(sql);
                 rs = ps.executeQuery();
-                ArrayList<Carrinho> lista = new ArrayList<>();
+                ArrayList<Carrinho> listaItensCarrinho = new ArrayList<>();
                 while (rs.next()) {
                     //setar os valores dentro de um objeto (Cliente)
                     //adicionar este objeto a uma list
                     Carrinho car = new Carrinho();
                     car.setId_carrinho(rs.getInt("id_carrinho"));
                     car.setId_produto(rs.getInt("id_produto"));
+                    car.setProdutoNome(rs.getString("produto_nome"));
+                    car.setProdutoValor(rs.getDouble("produto_valor"));
                     car.setId_cliente(rs.getInt("id_cliente"));
-                    car.setItens_qtds(rs.getInt("itens_qtds"));
-                    lista.add(car); // adiciona o objeto no arraylist
+                    car.setItens_qtd(rs.getInt("itens_qtd"));
+                    listaItensCarrinho.add(car); // adiciona o objeto no arraylist
                 }
                 con.close();
-                return lista;
+                return listaItensCarrinho;
             }else{
                 return null;
             }
@@ -51,14 +52,13 @@ public class CarrinhoDAO {
         }
     }
     
-    public boolean excluir(int id){
+    public boolean excluir(){
         Connection con = new Conexao().conectar();
         if (con != null) {
             try {
                 PreparedStatement ps;
-                String sql = "DELETE FROM carrinho WHERE id_carrinho = ?";
-                ps = con.prepareStatement(sql);
-                ps.setInt(1, id);             
+                String sql = "TRUNCATE TABLE carrinho ";
+                ps = con.prepareStatement(sql);           
                 if(ps.executeUpdate()!=0){
                     con.close();
                     return true;
@@ -75,7 +75,7 @@ public class CarrinhoDAO {
     
     public boolean inserirItensCarrinho(Carrinho c){
         Connection con = new Conexao().conectar();
-        String sql = "INSERT INTO carrinho (id_produto, id_cliente, itens_qtds) VALUES (?,?,?)";
+        String sql = "INSERT INTO carrinho (id_produto, id_cliente, itens_qtd) VALUES (?,?,?)";
         
         if (con != null) {
             try {
@@ -84,7 +84,7 @@ public class CarrinhoDAO {
                 
                 ps.setInt(1, c.getId_produto());
                 ps.setInt(2, 1);
-                ps.setInt(3, c.getItens_qtds());
+                ps.setInt(3, c.getItens_qtd());
                 
                 ps.executeUpdate();
                 con.close();

@@ -4,8 +4,10 @@ public class Carrinho {
 
     private Integer id_carrinho;
     private Integer id_produto;
+    private String produtoNome;
+    private Double produtoValor;
     private Integer id_cliente;
-    private Integer itens_qtds;
+    private Integer itens_qtd;
 
     public Integer getId_carrinho() {
         return id_carrinho;
@@ -31,12 +33,28 @@ public class Carrinho {
         this.id_cliente = id_cliente;
     }
 
-    public Integer getItens_qtds() {
-        return itens_qtds;
+    public Integer getItens_qtd() {
+        return itens_qtd;
     }
 
-    public void setItens_qtds(Integer itens_qtds) {
-        this.itens_qtds = itens_qtds;
+    public void setItens_qtd(Integer itens_qtd) {
+        this.itens_qtd = itens_qtd;
+    }
+
+    public String getProdutoNome() {
+        return produtoNome;
+    }
+
+    public void setProdutoNome(String produtoNome) {
+        this.produtoNome = produtoNome;
+    }
+
+    public Double getProdutoValor() {
+        return produtoValor;
+    }
+
+    public void setProdutoValor(Double produtoValor) {
+        this.produtoValor = produtoValor;
     }
     
     
