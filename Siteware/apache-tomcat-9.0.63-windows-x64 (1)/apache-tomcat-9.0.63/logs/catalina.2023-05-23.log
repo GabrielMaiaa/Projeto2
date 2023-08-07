@@ -1,0 +1,608 @@
+23-May-2023 15:23:26.416 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.63
+23-May-2023 15:23:26.418 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2022 07:52:11 UTC
+23-May-2023 15:23:26.418 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.63.0
+23-May-2023 15:23:26.418 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-May-2023 15:23:26.418 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-May-2023 15:23:26.418 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-May-2023 15:23:26.418 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_341\jre
+23-May-2023 15:23:26.418 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_341-b10
+23-May-2023 15:23:26.418 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-May-2023 15:23:26.418 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+23-May-2023 15:23:26.419 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+23-May-2023 15:23:26.420 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\logging.properties
+23-May-2023 15:23:26.420 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-May-2023 15:23:26.420 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|GabrielMaia
+23-May-2023 15:23:26.420 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-May-2023 15:23:26.420 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-May-2023 15:23:26.420 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-May-2023 15:23:26.421 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+23-May-2023 15:23:26.421 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+23-May-2023 15:23:26.421 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\temp
+23-May-2023 15:23:26.425 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+23-May-2023 15:23:26.426 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+23-May-2023 15:23:26.426 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23-May-2023 15:23:26.432 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+23-May-2023 15:23:26.936 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-May-2023 15:23:26.970 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [797] milliseconds
+23-May-2023 15:23:27.033 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-May-2023 15:23:27.033 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.63]
+23-May-2023 15:23:27.050 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\docs]
+23-May-2023 15:23:27.579 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [122] milliseconds.
+23-May-2023 15:23:27.610 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\docs] has finished in [559] ms
+23-May-2023 15:23:27.610 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\examples]
+23-May-2023 15:23:28.224 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\examples] has finished in [612] ms
+23-May-2023 15:23:28.224 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\host-manager]
+23-May-2023 15:23:28.284 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\host-manager] has finished in [59] ms
+23-May-2023 15:23:28.284 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\manager]
+23-May-2023 15:23:28.346 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\manager] has finished in [62] ms
+23-May-2023 15:23:28.347 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\ROOT]
+23-May-2023 15:23:28.388 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\ROOT] has finished in [42] ms
+23-May-2023 15:23:28.393 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-May-2023 15:23:28.439 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1468] milliseconds
+23-May-2023 15:40:54.138 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.63
+23-May-2023 15:40:54.140 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2022 07:52:11 UTC
+23-May-2023 15:40:54.140 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.63.0
+23-May-2023 15:40:54.140 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-May-2023 15:40:54.141 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-May-2023 15:40:54.141 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-May-2023 15:40:54.141 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_341\jre
+23-May-2023 15:40:54.141 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_341-b10
+23-May-2023 15:40:54.141 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-May-2023 15:40:54.141 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+23-May-2023 15:40:54.141 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+23-May-2023 15:40:54.143 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\logging.properties
+23-May-2023 15:40:54.144 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-May-2023 15:40:54.144 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|GabrielMaia
+23-May-2023 15:40:54.144 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-May-2023 15:40:54.144 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-May-2023 15:40:54.144 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-May-2023 15:40:54.144 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+23-May-2023 15:40:54.144 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+23-May-2023 15:40:54.144 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\temp
+23-May-2023 15:40:54.148 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+23-May-2023 15:40:54.148 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+23-May-2023 15:40:54.148 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23-May-2023 15:40:54.156 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+23-May-2023 15:40:54.591 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-May-2023 15:40:54.619 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [783] milliseconds
+23-May-2023 15:40:54.667 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-May-2023 15:40:54.667 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.63]
+23-May-2023 15:40:54.680 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\docs]
+23-May-2023 15:40:55.059 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+23-May-2023 15:40:55.092 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\docs] has finished in [412] ms
+23-May-2023 15:40:55.093 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\examples]
+23-May-2023 15:40:55.584 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\examples] has finished in [492] ms
+23-May-2023 15:40:55.586 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\host-manager]
+23-May-2023 15:40:55.630 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\host-manager] has finished in [45] ms
+23-May-2023 15:40:55.630 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\manager]
+23-May-2023 15:40:55.676 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\manager] has finished in [46] ms
+23-May-2023 15:40:55.677 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\ROOT]
+23-May-2023 15:40:55.713 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\ROOT] has finished in [36] ms
+23-May-2023 15:40:55.718 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-May-2023 15:40:55.739 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1119] milliseconds
+23-May-2023 15:40:58.290 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Biblioteca.xml]
+23-May-2023 15:40:58.292 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Biblioteca] in deployment descriptor [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Biblioteca.xml] has been ignored
+23-May-2023 15:40:58.831 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:40:58.836 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Facul\Arthur\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Biblioteca.xml] has finished in [546] ms
+23-May-2023 15:40:58.840 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Biblioteca]] after start() had already been called. The second call will be ignored.
+23-May-2023 15:41:59.295 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:41:59.309 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 15:41:59.309 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 15:41:59.697 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 15:41:59.795 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:41:59.803 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:42:00.143 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:42:00.691 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:42:00.697 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:42:54.741 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:42:55.233 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:42:55.238 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:43:46.511 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:43:46.913 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:43:46.919 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:43:56.930 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:43:57.351 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:43:57.358 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:44:27.899 INFORMAÇÕES [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:44:28.362 INFORMAÇÕES [http-nio-8080-exec-14] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:44:28.366 INFORMAÇÕES [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:44:28.816 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:44:29.230 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:44:29.234 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:44:36.981 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:44:37.384 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:44:37.387 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:44:37.723 INFORMAÇÕES [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:44:38.090 INFORMAÇÕES [http-nio-8080-exec-17] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:44:38.094 INFORMAÇÕES [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:44:47.051 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:44:47.517 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:44:47.521 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:44:47.966 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:44:48.370 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:44:48.373 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:45:48.798 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:45:49.259 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:45:49.265 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:45:49.598 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:45:49.974 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:45:49.979 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:45:53.406 INFORMAÇÕES [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:45:53.814 INFORMAÇÕES [http-nio-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:45:53.818 INFORMAÇÕES [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:47:09.651 INFORMAÇÕES [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:47:10.091 INFORMAÇÕES [http-nio-8080-exec-23] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:47:10.094 INFORMAÇÕES [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:47:10.433 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:47:10.870 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:47:10.875 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:47:16.049 INFORMAÇÕES [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:47:16.407 INFORMAÇÕES [http-nio-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:47:16.412 INFORMAÇÕES [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:49:58.715 INFORMAÇÕES [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:49:59.072 INFORMAÇÕES [http-nio-8080-exec-21] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:49:59.076 INFORMAÇÕES [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:50:18.718 INFORMAÇÕES [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:50:19.101 INFORMAÇÕES [http-nio-8080-exec-28] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:50:19.104 INFORMAÇÕES [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:50:51.030 INFORMAÇÕES [http-nio-8080-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:50:51.375 INFORMAÇÕES [http-nio-8080-exec-31] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:50:51.378 INFORMAÇÕES [http-nio-8080-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:52:08.045 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:52:08.440 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:52:08.445 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:53:58.028 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:53:58.379 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:53:58.383 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:54:04.403 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:54:04.777 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:54:04.780 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:54:30.470 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:54:30.799 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:54:30.804 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:54:42.023 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:54:42.441 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:54:42.447 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:54:42.607 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:54:43.022 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:54:43.026 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:55:10.759 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:55:11.127 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:55:11.131 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:56:04.592 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:56:05.116 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:56:05.120 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:56:05.455 INFORMAÇÕES [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:56:05.808 INFORMAÇÕES [http-nio-8080-exec-42] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:56:05.815 INFORMAÇÕES [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:56:17.229 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:56:17.646 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:56:17.650 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:56:17.989 INFORMAÇÕES [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:56:18.414 INFORMAÇÕES [http-nio-8080-exec-43] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:56:18.419 INFORMAÇÕES [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:57:03.962 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:57:04.329 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:57:04.332 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:57:19.309 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:57:19.687 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:57:19.692 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 15:57:34.476 INFORMAÇÕES [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 15:57:34.814 INFORMAÇÕES [http-nio-8080-exec-47] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 15:57:34.817 INFORMAÇÕES [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:07:59.504 INFORMAÇÕES [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:07:59.841 INFORMAÇÕES [http-nio-8080-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:07:59.845 INFORMAÇÕES [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:20:08.990 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:20:08.994 ADVERTÊNCIA [http-nio-8080-exec-66] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 16:20:08.994 ADVERTÊNCIA [http-nio-8080-exec-66] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:20:09.350 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:20:09.351 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:20:09.351 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:20:09.351 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:20:09.362 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:20:09.368 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:21:12.439 INFORMAÇÕES [http-nio-8080-exec-60] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:21:12.444 ADVERTÊNCIA [http-nio-8080-exec-60] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 16:21:12.445 ADVERTÊNCIA [http-nio-8080-exec-60] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:21:12.804 INFORMAÇÕES [http-nio-8080-exec-60] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:21:12.808 INFORMAÇÕES [http-nio-8080-exec-60] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:21:16.676 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:23:33.363 INFORMAÇÕES [http-nio-8080-exec-80] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:23:33.367 ADVERTÊNCIA [http-nio-8080-exec-80] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 16:23:33.368 ADVERTÊNCIA [http-nio-8080-exec-80] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:23:33.727 INFORMAÇÕES [http-nio-8080-exec-80] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:23:33.730 INFORMAÇÕES [http-nio-8080-exec-80] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:23:35.684 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:23:46.716 INFORMAÇÕES [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:23:47.089 INFORMAÇÕES [http-nio-8080-exec-86] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:23:47.093 INFORMAÇÕES [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:23:54.448 INFORMAÇÕES [http-nio-8080-exec-82] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:23:54.856 INFORMAÇÕES [http-nio-8080-exec-82] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:23:54.859 INFORMAÇÕES [http-nio-8080-exec-82] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:25:20.396 INFORMAÇÕES [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:25:20.810 INFORMAÇÕES [http-nio-8080-exec-90] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:25:20.813 INFORMAÇÕES [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:25:21.139 INFORMAÇÕES [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:25:21.521 INFORMAÇÕES [http-nio-8080-exec-83] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:25:21.525 INFORMAÇÕES [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:25:35.612 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:25:35.976 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:25:35.980 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:25:55.158 INFORMAÇÕES [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:25:55.535 INFORMAÇÕES [http-nio-8080-exec-86] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:25:55.538 INFORMAÇÕES [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:30:29.084 INFORMAÇÕES [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:30:29.089 ADVERTÊNCIA [http-nio-8080-exec-98] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 16:30:29.089 ADVERTÊNCIA [http-nio-8080-exec-98] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:30:29.404 INFORMAÇÕES [http-nio-8080-exec-98] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:30:29.407 INFORMAÇÕES [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:30:30.732 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:30:35.302 INFORMAÇÕES [http-nio-8080-exec-100] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:30:35.629 INFORMAÇÕES [http-nio-8080-exec-100] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:30:35.632 INFORMAÇÕES [http-nio-8080-exec-100] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:30:43.599 INFORMAÇÕES [http-nio-8080-exec-107] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:30:43.927 INFORMAÇÕES [http-nio-8080-exec-107] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:30:43.931 INFORMAÇÕES [http-nio-8080-exec-107] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:30:45.911 INFORMAÇÕES [http-nio-8080-exec-97] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:30:46.340 INFORMAÇÕES [http-nio-8080-exec-97] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:30:46.344 INFORMAÇÕES [http-nio-8080-exec-97] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:33:14.657 INFORMAÇÕES [http-nio-8080-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:33:14.660 ADVERTÊNCIA [http-nio-8080-exec-114] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 16:33:14.661 ADVERTÊNCIA [http-nio-8080-exec-114] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:33:14.986 INFORMAÇÕES [http-nio-8080-exec-114] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:33:14.989 INFORMAÇÕES [http-nio-8080-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:33:15.107 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:40:37.946 INFORMAÇÕES [http-nio-8080-exec-118] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:40:37.949 ADVERTÊNCIA [http-nio-8080-exec-118] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 16:40:37.950 ADVERTÊNCIA [http-nio-8080-exec-118] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:40:38.334 INFORMAÇÕES [http-nio-8080-exec-118] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:40:38.338 INFORMAÇÕES [http-nio-8080-exec-118] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:40:42.947 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:43:49.589 INFORMAÇÕES [http-nio-8080-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:43:49.594 ADVERTÊNCIA [http-nio-8080-exec-132] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 16:43:49.595 ADVERTÊNCIA [http-nio-8080-exec-132] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:43:49.782 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:43:49.782 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:43:49.783 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:43:49.809 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:43:50.034 INFORMAÇÕES [http-nio-8080-exec-132] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:43:50.038 INFORMAÇÕES [http-nio-8080-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:44:34.220 INFORMAÇÕES [http-nio-8080-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:44:34.224 ADVERTÊNCIA [http-nio-8080-exec-132] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 16:44:34.225 ADVERTÊNCIA [http-nio-8080-exec-132] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:44:34.556 INFORMAÇÕES [http-nio-8080-exec-132] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:44:34.560 INFORMAÇÕES [http-nio-8080-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:44:36.853 INFORMAÇÕES [http-nio-8080-exec-130] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:44:37.236 INFORMAÇÕES [http-nio-8080-exec-130] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:44:37.240 INFORMAÇÕES [http-nio-8080-exec-130] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:44:37.729 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:44:49.312 INFORMAÇÕES [http-nio-8080-exec-141] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:44:49.712 INFORMAÇÕES [http-nio-8080-exec-141] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:44:49.720 INFORMAÇÕES [http-nio-8080-exec-141] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:44:59.576 INFORMAÇÕES [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:44:59.962 INFORMAÇÕES [http-nio-8080-exec-136] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:44:59.965 INFORMAÇÕES [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:45:02.393 INFORMAÇÕES [http-nio-8080-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:45:02.749 INFORMAÇÕES [http-nio-8080-exec-132] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:45:02.752 INFORMAÇÕES [http-nio-8080-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:45:19.880 INFORMAÇÕES [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:45:20.275 INFORMAÇÕES [http-nio-8080-exec-136] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:45:20.279 INFORMAÇÕES [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:48:10.530 INFORMAÇÕES [http-nio-8080-exec-148] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:48:10.943 INFORMAÇÕES [http-nio-8080-exec-148] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:48:10.946 INFORMAÇÕES [http-nio-8080-exec-148] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:48:16.347 INFORMAÇÕES [http-nio-8080-exec-144] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:48:16.671 INFORMAÇÕES [http-nio-8080-exec-144] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:48:16.674 INFORMAÇÕES [http-nio-8080-exec-144] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:56:25.702 INFORMAÇÕES [http-nio-8080-exec-151] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:56:25.707 ADVERTÊNCIA [http-nio-8080-exec-151] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 16:56:25.708 ADVERTÊNCIA [http-nio-8080-exec-151] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:56:26.156 INFORMAÇÕES [http-nio-8080-exec-151] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:56:26.160 INFORMAÇÕES [http-nio-8080-exec-151] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:56:30.664 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:56:37.912 INFORMAÇÕES [http-nio-8080-exec-155] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:56:38.254 INFORMAÇÕES [http-nio-8080-exec-155] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:56:38.257 INFORMAÇÕES [http-nio-8080-exec-155] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:56:52.563 INFORMAÇÕES [http-nio-8080-exec-161] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:56:52.912 INFORMAÇÕES [http-nio-8080-exec-161] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:56:52.915 INFORMAÇÕES [http-nio-8080-exec-161] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:57:31.613 INFORMAÇÕES [http-nio-8080-exec-163] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:57:31.617 ADVERTÊNCIA [http-nio-8080-exec-163] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 16:57:31.618 ADVERTÊNCIA [http-nio-8080-exec-163] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:57:31.974 INFORMAÇÕES [http-nio-8080-exec-163] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:57:31.979 INFORMAÇÕES [http-nio-8080-exec-163] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:57:34.196 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:58:14.625 INFORMAÇÕES [http-nio-8080-exec-159] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 16:58:14.630 ADVERTÊNCIA [http-nio-8080-exec-159] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 16:58:14.632 ADVERTÊNCIA [http-nio-8080-exec-159] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 16:58:14.979 INFORMAÇÕES [http-nio-8080-exec-159] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 16:58:14.983 INFORMAÇÕES [http-nio-8080-exec-159] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 16:58:18.962 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 17:09:38.270 INFORMAÇÕES [http-nio-8080-exec-179] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 17:09:38.273 ADVERTÊNCIA [http-nio-8080-exec-179] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 17:09:38.274 ADVERTÊNCIA [http-nio-8080-exec-179] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 17:09:38.647 INFORMAÇÕES [http-nio-8080-exec-179] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 17:09:38.650 INFORMAÇÕES [http-nio-8080-exec-179] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 17:09:41.113 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 17:16:23.883 INFORMAÇÕES [http-nio-8080-exec-185] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 17:16:23.887 ADVERTÊNCIA [http-nio-8080-exec-185] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 17:16:23.887 ADVERTÊNCIA [http-nio-8080-exec-185] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 17:16:24.215 INFORMAÇÕES [http-nio-8080-exec-185] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 17:16:24.218 INFORMAÇÕES [http-nio-8080-exec-185] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 17:16:26.664 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+23-May-2023 17:16:32.332 INFORMAÇÕES [http-nio-8080-exec-191] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 17:16:32.726 INFORMAÇÕES [http-nio-8080-exec-191] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 17:16:32.730 INFORMAÇÕES [http-nio-8080-exec-191] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 17:16:38.376 INFORMAÇÕES [http-nio-8080-exec-189] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 17:16:38.707 INFORMAÇÕES [http-nio-8080-exec-189] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 17:16:38.711 INFORMAÇÕES [http-nio-8080-exec-189] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 17:16:40.952 INFORMAÇÕES [http-nio-8080-exec-184] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 17:16:41.322 INFORMAÇÕES [http-nio-8080-exec-184] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 17:16:41.325 INFORMAÇÕES [http-nio-8080-exec-184] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 17:16:44.355 INFORMAÇÕES [http-nio-8080-exec-189] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 17:16:44.688 INFORMAÇÕES [http-nio-8080-exec-189] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 17:16:44.691 INFORMAÇÕES [http-nio-8080-exec-189] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 17:17:09.305 INFORMAÇÕES [http-nio-8080-exec-197] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 17:17:09.634 INFORMAÇÕES [http-nio-8080-exec-197] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 17:17:09.637 INFORMAÇÕES [http-nio-8080-exec-197] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 17:17:25.024 INFORMAÇÕES [http-nio-8080-exec-191] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] has started
+23-May-2023 17:17:25.407 INFORMAÇÕES [http-nio-8080-exec-191] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2023 17:17:25.410 INFORMAÇÕES [http-nio-8080-exec-191] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Biblioteca] is completed
+23-May-2023 17:28:00.323 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-May-2023 17:28:00.323 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-May-2023 17:28:00.428 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-May-2023 17:28:00.451 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Biblioteca] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2023 17:28:00.451 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Biblioteca] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+23-May-2023 17:28:00.459 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-May-2023 17:28:00.478 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

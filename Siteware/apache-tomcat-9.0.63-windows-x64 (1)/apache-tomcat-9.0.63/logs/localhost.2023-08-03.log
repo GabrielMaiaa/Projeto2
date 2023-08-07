@@ -1,0 +1,125 @@
+03-Aug-2023 10:35:19.097 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+03-Aug-2023 10:35:19.097 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+03-Aug-2023 10:35:19.100 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4ef37659')
+03-Aug-2023 11:29:22.881 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+03-Aug-2023 11:29:22.881 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+03-Aug-2023 22:17:50.723 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+03-Aug-2023 22:17:50.723 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+03-Aug-2023 22:17:50.731 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@52de51b6')
+03-Aug-2023 22:37:48.743 INFORMAÇÕES [http-nio-8080-exec-25] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:37:49.692 INFORMAÇÕES [http-nio-8080-exec-24] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:37:50.633 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:38:10.923 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:38:11.802 INFORMAÇÕES [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:38:12.592 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:38:17.648 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:38:33.998 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:38:48.207 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:38:52.811 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:39:36.938 INFORMAÇÕES [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:40:54.378 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:40:55.146 INFORMAÇÕES [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:41:08.248 INFORMAÇÕES [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:43:05.626 INFORMAÇÕES [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:43:07.637 INFORMAÇÕES [http-nio-8080-exec-38] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:44:48.834 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:44:49.829 INFORMAÇÕES [http-nio-8080-exec-47] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:44:50.739 INFORMAÇÕES [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:45:36.416 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:45:53.712 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:45:54.554 INFORMAÇÕES [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:45:55.372 INFORMAÇÕES [http-nio-8080-exec-53] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:46:03.372 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:46:07.054 INFORMAÇÕES [http-nio-8080-exec-54] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:46:10.392 INFORMAÇÕES [http-nio-8080-exec-45] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:46:15.006 INFORMAÇÕES [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:46:20.340 INFORMAÇÕES [http-nio-8080-exec-57] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:51:20.545 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:51:21.513 INFORMAÇÕES [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:21.514 INFORMAÇÕES [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:21.523 INFORMAÇÕES [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:21.573 INFORMAÇÕES [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:21.573 INFORMAÇÕES [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:21.575 INFORMAÇÕES [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:21.584 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:21.584 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:21.585 INFORMAÇÕES [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:21.585 INFORMAÇÕES [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:21.586 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:21.586 INFORMAÇÕES [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:23.120 INFORMAÇÕES [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:23.120 INFORMAÇÕES [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:23.120 INFORMAÇÕES [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:35.911 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:35.911 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:35.918 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:35.926 INFORMAÇÕES [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:35.926 INFORMAÇÕES [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:35.926 INFORMAÇÕES [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:35.926 INFORMAÇÕES [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:35.926 INFORMAÇÕES [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:35.926 INFORMAÇÕES [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:35.931 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:35.931 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:35.931 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:36.281 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:36.281 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:36.282 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:36.289 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:36.289 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:36.289 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:36.289 INFORMAÇÕES [http-nio-8080-exec-62] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:36.289 INFORMAÇÕES [http-nio-8080-exec-62] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:36.289 INFORMAÇÕES [http-nio-8080-exec-62] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:36.294 INFORMAÇÕES [http-nio-8080-exec-61] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:36.294 INFORMAÇÕES [http-nio-8080-exec-61] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:36.294 INFORMAÇÕES [http-nio-8080-exec-61] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:36.298 INFORMAÇÕES [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:36.298 INFORMAÇÕES [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:36.298 INFORMAÇÕES [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:37.035 INFORMAÇÕES [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:37.035 INFORMAÇÕES [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:38.245 INFORMAÇÕES [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:38.258 INFORMAÇÕES [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:38.259 INFORMAÇÕES [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:38.261 INFORMAÇÕES [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:55.455 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:55.455 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:55.682 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:51:55.691 INFORMAÇÕES [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:51:55.691 INFORMAÇÕES [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:51:55.694 INFORMAÇÕES [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:52:00.459 INFORMAÇÕES [http-nio-8080-exec-77] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:52:00.459 INFORMAÇÕES [http-nio-8080-exec-77] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:52:00.461 INFORMAÇÕES [http-nio-8080-exec-77] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:52:02.932 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:52:02.932 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:52:02.932 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:52:58.528 INFORMAÇÕES [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:52:58.528 INFORMAÇÕES [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:52:58.764 INFORMAÇÕES [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:52:58.776 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:52:58.776 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:52:58.778 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:53:39.351 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:53:39.351 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:53:39.521 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:53:39.538 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:53:39.538 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:53:39.539 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:53:40.123 INFORMAÇÕES [http-nio-8080-exec-75] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:53:40.123 INFORMAÇÕES [http-nio-8080-exec-75] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:53:40.124 INFORMAÇÕES [http-nio-8080-exec-75] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:53:40.134 INFORMAÇÕES [http-nio-8080-exec-77] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:53:40.135 INFORMAÇÕES [http-nio-8080-exec-77] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:53:40.135 INFORMAÇÕES [http-nio-8080-exec-77] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:53:58.672 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:53:58.672 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:53:58.677 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:53:58.689 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log filtro:doFilter()
+03-Aug-2023 22:53:58.690 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log filtro:DoBeforeProcessing
+03-Aug-2023 22:53:58.690 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log filtro:DoAfterProcessing
+03-Aug-2023 22:54:49.445 INFORMAÇÕES [http-nio-8080-exec-77] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 22:54:53.456 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log filtro:Initializing filter
+03-Aug-2023 23:53:23.103 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+03-Aug-2023 23:53:23.104 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

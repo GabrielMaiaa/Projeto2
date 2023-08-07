@@ -1,0 +1,354 @@
+03-Aug-2023 10:35:17.032 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.63
+03-Aug-2023 10:35:17.035 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2022 07:52:11 UTC
+03-Aug-2023 10:35:17.035 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.63.0
+03-Aug-2023 10:35:17.036 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-Aug-2023 10:35:17.036 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Aug-2023 10:35:17.036 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Aug-2023 10:35:17.036 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_341\jre
+03-Aug-2023 10:35:17.036 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_341-b10
+03-Aug-2023 10:35:17.036 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Aug-2023 10:35:17.036 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+03-Aug-2023 10:35:17.037 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+03-Aug-2023 10:35:17.038 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\logging.properties
+03-Aug-2023 10:35:17.038 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Aug-2023 10:35:17.038 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|GabrielMaia
+03-Aug-2023 10:35:17.038 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Aug-2023 10:35:17.038 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Aug-2023 10:35:17.038 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Aug-2023 10:35:17.038 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+03-Aug-2023 10:35:17.039 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+03-Aug-2023 10:35:17.039 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\temp
+03-Aug-2023 10:35:17.051 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+03-Aug-2023 10:35:17.051 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-Aug-2023 10:35:17.051 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-Aug-2023 10:35:17.119 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+03-Aug-2023 10:35:17.639 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Aug-2023 10:35:17.678 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [955] milliseconds
+03-Aug-2023 10:35:17.746 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Aug-2023 10:35:17.746 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.63]
+03-Aug-2023 10:35:17.759 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Biblioteca.xml]
+03-Aug-2023 10:35:17.781 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Biblioteca] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Biblioteca.xml] has been ignored
+03-Aug-2023 10:35:17.818 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Biblioteca.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@44a3ec6b]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4885)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5023)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Pichau\Desktop\Facul\teste\Arthur\Projeto\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+03-Aug-2023 10:35:17.857 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Biblioteca.xml] has finished in [92] ms
+03-Aug-2023 10:35:17.858 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\docs]
+03-Aug-2023 10:35:18.362 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [170] milliseconds.
+03-Aug-2023 10:35:18.391 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\docs] has finished in [532] ms
+03-Aug-2023 10:35:18.391 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\examples]
+03-Aug-2023 10:35:19.115 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\examples] has finished in [724] ms
+03-Aug-2023 10:35:19.115 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\host-manager]
+03-Aug-2023 10:35:19.187 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\host-manager] has finished in [72] ms
+03-Aug-2023 10:35:19.187 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\manager]
+03-Aug-2023 10:35:19.248 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\manager] has finished in [61] ms
+03-Aug-2023 10:35:19.248 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\ROOT]
+03-Aug-2023 10:35:19.293 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\ROOT] has finished in [44] ms
+03-Aug-2023 10:35:19.298 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Aug-2023 10:35:19.327 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1649] milliseconds
+03-Aug-2023 10:36:53.678 INFORMAÇÕES [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Biblioteca]
+03-Aug-2023 10:36:53.706 INFORMAÇÕES [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Biblioteca.xml]
+03-Aug-2023 10:36:53.707 ADVERTÊNCIA [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Biblioteca] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Biblioteca.xml] has been ignored
+03-Aug-2023 10:36:54.205 INFORMAÇÕES [http-nio-8080-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 10:36:54.210 INFORMAÇÕES [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Biblioteca.xml] has finished in [504] ms
+03-Aug-2023 10:36:54.214 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Biblioteca]] after start() had already been called. The second call will be ignored.
+03-Aug-2023 11:29:22.655 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Aug-2023 11:29:22.656 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Aug-2023 11:29:22.860 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Aug-2023 11:29:22.912 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Aug-2023 11:29:22.928 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Aug-2023 22:17:47.719 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.63
+03-Aug-2023 22:17:47.722 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2022 07:52:11 UTC
+03-Aug-2023 22:17:47.722 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.63.0
+03-Aug-2023 22:17:47.722 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-Aug-2023 22:17:47.722 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Aug-2023 22:17:47.722 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Aug-2023 22:17:47.722 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_341\jre
+03-Aug-2023 22:17:47.722 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_341-b10
+03-Aug-2023 22:17:47.722 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Aug-2023 22:17:47.722 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+03-Aug-2023 22:17:47.722 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+03-Aug-2023 22:17:47.723 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\logging.properties
+03-Aug-2023 22:17:47.723 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Aug-2023 22:17:47.725 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|GabrielMaia
+03-Aug-2023 22:17:47.725 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Aug-2023 22:17:47.725 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Aug-2023 22:17:47.725 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Aug-2023 22:17:47.725 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+03-Aug-2023 22:17:47.725 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63
+03-Aug-2023 22:17:47.725 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\temp
+03-Aug-2023 22:17:47.734 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+03-Aug-2023 22:17:47.734 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-Aug-2023 22:17:47.734 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-Aug-2023 22:17:47.830 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+03-Aug-2023 22:17:48.317 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Aug-2023 22:17:48.352 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [926] milliseconds
+03-Aug-2023 22:17:48.411 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Aug-2023 22:17:48.411 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.63]
+03-Aug-2023 22:17:48.426 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Biblioteca.xml]
+03-Aug-2023 22:17:48.454 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Biblioteca] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Biblioteca.xml] has been ignored
+03-Aug-2023 22:17:49.353 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:17:49.551 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [165] milliseconds.
+03-Aug-2023 22:17:49.575 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Biblioteca.xml] has finished in [1.149] ms
+03-Aug-2023 22:17:49.576 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\docs]
+03-Aug-2023 22:17:49.619 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\docs] has finished in [43] ms
+03-Aug-2023 22:17:49.620 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\examples]
+03-Aug-2023 22:17:50.755 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\examples] has finished in [1.135] ms
+03-Aug-2023 22:17:50.756 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\host-manager]
+03-Aug-2023 22:17:50.893 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\host-manager] has finished in [138] ms
+03-Aug-2023 22:17:50.893 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\manager]
+03-Aug-2023 22:17:50.981 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\manager] has finished in [88] ms
+03-Aug-2023 22:17:50.981 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\ROOT]
+03-Aug-2023 22:17:51.030 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\webapps\ROOT] has finished in [49] ms
+03-Aug-2023 22:17:51.037 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Aug-2023 22:17:51.070 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [2717] milliseconds
+03-Aug-2023 22:18:14.446 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Biblioteca]
+03-Aug-2023 22:18:34.783 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja.xml]
+03-Aug-2023 22:18:34.785 ADVERTÊNCIA [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja.xml] has been ignored
+03-Aug-2023 22:18:35.214 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:18:35.220 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Siteware\apache-tomcat-9.0.63-windows-x64 (1)\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja.xml] has finished in [437] ms
+03-Aug-2023 22:18:35.226 INFORMAÇÕES [http-nio-8080-exec-12] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Loja]] after start() had already been called. The second call will be ignored.
+03-Aug-2023 22:27:52.634 INFORMAÇÕES [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:27:53.145 INFORMAÇÕES [http-nio-8080-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:27:53.148 INFORMAÇÕES [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:27:53.505 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:27:54.011 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:27:54.015 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:27:54.368 INFORMAÇÕES [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:27:54.934 INFORMAÇÕES [http-nio-8080-exec-20] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:27:54.938 INFORMAÇÕES [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:37:48.158 INFORMAÇÕES [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:37:48.741 INFORMAÇÕES [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:37:48.747 INFORMAÇÕES [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:37:49.091 INFORMAÇÕES [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:37:49.691 INFORMAÇÕES [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:37:49.696 INFORMAÇÕES [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:37:50.041 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:37:50.631 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:37:50.636 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:38:10.316 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:38:10.923 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:38:10.925 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:38:11.279 INFORMAÇÕES [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:38:11.800 INFORMAÇÕES [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:38:11.805 INFORMAÇÕES [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:38:12.150 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:38:12.591 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:38:12.594 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:38:17.257 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:38:17.647 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:38:17.650 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:38:33.482 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:38:33.997 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:38:34.000 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:38:47.800 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:38:48.206 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:38:48.209 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:38:52.391 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:38:52.810 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:38:52.814 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:39:36.448 INFORMAÇÕES [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:39:36.937 INFORMAÇÕES [http-nio-8080-exec-40] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:39:36.941 INFORMAÇÕES [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:40:53.916 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:40:54.376 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:40:54.381 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:40:54.724 INFORMAÇÕES [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:40:55.145 INFORMAÇÕES [http-nio-8080-exec-29] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:40:55.149 INFORMAÇÕES [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:41:07.668 INFORMAÇÕES [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:41:08.245 INFORMAÇÕES [http-nio-8080-exec-43] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:41:08.252 INFORMAÇÕES [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:43:05.182 INFORMAÇÕES [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:43:05.625 INFORMAÇÕES [http-nio-8080-exec-40] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:43:05.629 INFORMAÇÕES [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:43:07.218 INFORMAÇÕES [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:43:07.635 INFORMAÇÕES [http-nio-8080-exec-38] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:43:07.639 INFORMAÇÕES [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:44:48.128 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:44:48.832 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:44:48.837 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:44:49.207 INFORMAÇÕES [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:44:49.827 INFORMAÇÕES [http-nio-8080-exec-47] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:44:49.834 INFORMAÇÕES [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:44:50.179 INFORMAÇÕES [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:44:50.738 INFORMAÇÕES [http-nio-8080-exec-43] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:44:50.742 INFORMAÇÕES [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:45:35.969 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:45:36.415 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:45:36.418 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:45:53.173 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:45:53.711 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:45:53.717 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:45:54.059 INFORMAÇÕES [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:45:54.553 INFORMAÇÕES [http-nio-8080-exec-51] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:45:54.556 INFORMAÇÕES [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:45:54.907 INFORMAÇÕES [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:45:55.371 INFORMAÇÕES [http-nio-8080-exec-53] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:45:55.374 INFORMAÇÕES [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:46:02.920 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:46:03.371 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:46:03.374 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:46:06.637 INFORMAÇÕES [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:46:07.054 INFORMAÇÕES [http-nio-8080-exec-54] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:46:07.056 INFORMAÇÕES [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:46:09.953 INFORMAÇÕES [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:46:10.390 INFORMAÇÕES [http-nio-8080-exec-45] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:46:10.396 INFORMAÇÕES [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:46:14.532 INFORMAÇÕES [http-nio-8080-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:46:15.004 INFORMAÇÕES [http-nio-8080-exec-52] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:46:15.010 INFORMAÇÕES [http-nio-8080-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:46:19.830 INFORMAÇÕES [http-nio-8080-exec-57] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:46:20.339 INFORMAÇÕES [http-nio-8080-exec-57] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:46:20.343 INFORMAÇÕES [http-nio-8080-exec-57] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:51:20.032 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:51:20.543 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:51:20.548 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:54:48.881 INFORMAÇÕES [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:54:49.437 INFORMAÇÕES [http-nio-8080-exec-77] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:54:49.449 INFORMAÇÕES [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:54:52.899 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:54:53.454 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:54:53.458 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:55:04.548 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:55:05.025 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:55:05.030 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:58:17.201 INFORMAÇÕES [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:58:18.352 INFORMAÇÕES [http-nio-8080-exec-91] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:58:18.358 INFORMAÇÕES [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:58:19.120 INFORMAÇÕES [http-nio-8080-exec-92] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:58:20.005 INFORMAÇÕES [http-nio-8080-exec-92] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:58:20.021 INFORMAÇÕES [http-nio-8080-exec-92] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:58:21.101 INFORMAÇÕES [http-nio-8080-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:58:21.600 INFORMAÇÕES [http-nio-8080-exec-88] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:58:21.605 INFORMAÇÕES [http-nio-8080-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 22:58:26.200 INFORMAÇÕES [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 22:58:26.654 INFORMAÇÕES [http-nio-8080-exec-94] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 22:58:26.658 INFORMAÇÕES [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:20:35.064 INFORMAÇÕES [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 23:20:35.067 ADVERTÊNCIA [http-nio-8080-exec-98] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Aug-2023 23:20:35.067 ADVERTÊNCIA [http-nio-8080-exec-98] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+03-Aug-2023 23:20:35.189 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+03-Aug-2023 23:20:35.554 INFORMAÇÕES [http-nio-8080-exec-98] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 23:20:35.557 INFORMAÇÕES [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:43:32.031 INFORMAÇÕES [http-nio-8080-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 23:43:32.035 ADVERTÊNCIA [http-nio-8080-exec-114] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Aug-2023 23:43:32.035 ADVERTÊNCIA [http-nio-8080-exec-114] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+03-Aug-2023 23:43:32.476 INFORMAÇÕES [http-nio-8080-exec-114] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 23:43:32.480 INFORMAÇÕES [http-nio-8080-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:43:32.825 INFORMAÇÕES [http-nio-8080-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 23:43:33.069 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+03-Aug-2023 23:43:33.311 INFORMAÇÕES [http-nio-8080-exec-106] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 23:43:33.315 INFORMAÇÕES [http-nio-8080-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:44:56.300 INFORMAÇÕES [http-nio-8080-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 23:44:56.755 INFORMAÇÕES [http-nio-8080-exec-106] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 23:44:56.758 INFORMAÇÕES [http-nio-8080-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:44:57.086 INFORMAÇÕES [http-nio-8080-exec-111] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 23:44:57.471 INFORMAÇÕES [http-nio-8080-exec-111] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 23:44:57.474 INFORMAÇÕES [http-nio-8080-exec-111] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:45:04.395 INFORMAÇÕES [http-nio-8080-exec-120] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 23:45:04.815 INFORMAÇÕES [http-nio-8080-exec-120] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 23:45:04.819 INFORMAÇÕES [http-nio-8080-exec-120] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:45:05.156 INFORMAÇÕES [http-nio-8080-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 23:45:05.531 INFORMAÇÕES [http-nio-8080-exec-119] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 23:45:05.534 INFORMAÇÕES [http-nio-8080-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:46:38.570 INFORMAÇÕES [http-nio-8080-exec-120] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 23:46:39.055 INFORMAÇÕES [http-nio-8080-exec-120] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 23:46:39.058 INFORMAÇÕES [http-nio-8080-exec-120] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:46:39.399 INFORMAÇÕES [http-nio-8080-exec-123] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 23:46:39.800 INFORMAÇÕES [http-nio-8080-exec-123] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 23:46:39.804 INFORMAÇÕES [http-nio-8080-exec-123] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:48:52.623 INFORMAÇÕES [http-nio-8080-exec-129] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 23:48:53.091 INFORMAÇÕES [http-nio-8080-exec-129] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 23:48:53.095 INFORMAÇÕES [http-nio-8080-exec-129] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:49:49.917 INFORMAÇÕES [http-nio-8080-exec-120] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 23:49:50.290 INFORMAÇÕES [http-nio-8080-exec-120] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 23:49:50.294 INFORMAÇÕES [http-nio-8080-exec-120] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:49:54.067 INFORMAÇÕES [http-nio-8080-exec-122] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 23:49:54.581 INFORMAÇÕES [http-nio-8080-exec-122] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 23:49:54.584 INFORMAÇÕES [http-nio-8080-exec-122] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:49:54.927 INFORMAÇÕES [http-nio-8080-exec-126] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] has started
+03-Aug-2023 23:49:55.320 INFORMAÇÕES [http-nio-8080-exec-126] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Aug-2023 23:49:55.323 INFORMAÇÕES [http-nio-8080-exec-126] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja] is completed
+03-Aug-2023 23:53:22.974 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Aug-2023 23:53:22.975 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Aug-2023 23:53:23.097 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Aug-2023 23:53:23.110 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Aug-2023 23:53:23.125 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
