@@ -8,6 +8,7 @@ public class Carrinho {
     private Double produtoValor;
     private Integer id_cliente;
     private Integer itens_qtd;
+    private Double valorTotalCarrinho;
 
     public Integer getId_carrinho() {
         return id_carrinho;
@@ -55,6 +56,14 @@ public class Carrinho {
 
     public void setProdutoValor(Double produtoValor) {
         this.produtoValor = produtoValor;
+    }
+
+    public Double getValorTotalCarrinho() {
+        return valorTotalCarrinho;
+    }
+
+    public void setValorTotalCarrinho(Double valorTotalCarrinho) {
+        this.valorTotalCarrinho = valorTotalCarrinho;
     }
     
     

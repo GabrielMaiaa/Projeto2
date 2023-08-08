@@ -3,15 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/src/java/DAO/CarrinhoDAO.java</file>
-            <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/src/java/VO/Produtos.java</file>
-            <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/src/java/Controller/ProdutosController.java</file>
+            <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/src/java/DAO/PromocaoDAO.java</file>
             <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/web/produtos.html</file>
-            <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/web/index.jsp</file>
+            <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/web/inserirPromocao.jsp</file>
             <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/web/checkout.jsp</file>
+            <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/src/java/Controller/PromocaoController.java</file>
             <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/src/java/Controller/CarrinhoController.java</file>
             <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/web/inserirProduto.jsp</file>
+            <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/src/java/VO/Promocao.java</file>
             <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/src/java/VO/Carrinho.java</file>
+            <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/web/promocoes.html</file>
             <file>file:/C:/Users/Pichau/Desktop/Projeto/Projeto2/Siteware/Projeto/src/java/DAO/ProdutosDAO.java</file>
         </group>
     </open-files>

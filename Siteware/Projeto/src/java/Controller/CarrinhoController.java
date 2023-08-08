@@ -5,8 +5,9 @@
 package Controller;
 
 import DAO.CarrinhoDAO;
-import DAO.ProdutosDAO;
+import DAO.PromocaoDAO;
 import VO.Carrinho;
+import VO.Promocao;
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -56,9 +57,12 @@ public class CarrinhoController extends HttpServlet {
                 int id_produto = Integer.parseInt(request.getParameter("id_produto"));
                 int id_cliente = 1;
                 int itens_qtds = Integer.parseInt(request.getParameter("qtd_itens"));
+                int promo_id = Integer.parseInt(request.getParameter("promo_produto"));
                 
                 String nome_produto = request.getParameter("nome_produto");
                 Double valor_produto = Double.parseDouble(request.getParameter("valor_produto"));
+                
+                PromocaoDAO promoDAO = new PromocaoDAO();
                 
                 Carrinho carrinho = new Carrinho();
                 carrinho.setId_produto(id_produto);
@@ -66,6 +70,9 @@ public class CarrinhoController extends HttpServlet {
                 carrinho.setItens_qtd(itens_qtds);
                 carrinho.setProdutoNome(nome_produto);
                 carrinho.setProdutoValor(valor_produto);
+                carrinho.setValorTotalCarrinho(calcularTotal(itens_qtds, valor_produto, promoDAO.localizarRegistro(promo_id)));
+                
+                request.setAttribute("total", carrinho.getValorTotalCarrinho());
  
                 if(car.inserirItensCarrinho(carrinho)){
                      response.sendRedirect("index.jsp");
@@ -74,6 +81,23 @@ public class CarrinhoController extends HttpServlet {
                 }
                 break;    
         }
+    }
+    
+    public static double calcularTotal(int quantidade, Double valorUni, Promocao promo ) {
+        double total = 0.0;
+       if (promo != null && quantidade >= promo.getQuantidadeComprar()) {
+                int grupospromo = quantidade / promo.getQuantidadeComprar();
+                int itensPagos = grupospromo * promo.getQuantidadeComprar();
+                int itensRestantes = quantidade - itensPagos;
+
+                double subtotal = (grupospromo * promo.getPrecoPagar()) +
+                                  (itensRestantes * valorUni);
+                total += subtotal;
+            } else {
+                total += valorUni * quantidade;
+            }
+
+        return total;
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

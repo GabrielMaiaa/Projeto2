@@ -21,14 +21,26 @@
         <br><br>
         <form class="container center" name="frm" method="post" action="PromocaoController?operacao=5" style="margin-right: 60px;">
             <div class="row mb-3">
-              <label for="inputEmail3" class="col-sm-2 col-form-label">Nome promoção </label>
+              <label for="titulo" class="col-sm-2 col-form-label">Nome promoção </label>
               <div class="col-sm-5">
                 <input type="text" class="form-control" name="titulo"  >
               </div>
             </div>
+            <div class="row mb-3">
+              <label for="quantidade_comprar" class="col-sm-2 col-form-label">Quantidade a se comprar </label>
+              <div class="col-sm-5">
+                <input type="number" class="form-control" name="quantidade_comprar"  >
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="preco_pagar" class="col-sm-2 col-form-label">Preço a pagar </label>
+              <div class="col-sm-5">
+                <input type="number" class="form-control" name="preco_pagar"  >
+              </div>
+            </div>
 
             <button type="submit" class="btn btn-primary">
-                <a style="text-decoration:none; color: black "href="listagemPromocao.jsp">
+                <a style="text-decoration:none; color: black ">
                     Inserir
                 </a>
             </button>

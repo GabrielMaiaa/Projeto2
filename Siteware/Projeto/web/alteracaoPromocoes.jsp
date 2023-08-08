@@ -25,6 +25,18 @@
                 <input type="text" class="form-control" name="nome_promocao" value="<%=p.getNomePromocao()%>">
               </div>
             </div>
+              <div class="row mb-3">
+              <label for="quantidade_pagar" class="col-sm-2 col-form-label">Qtd a pagar </label>
+              <div class="col-sm-5">
+                <input type="text" class="form-control" name="quantidade_pagar" value="<%=p.getQuantidadeComprar() %>">
+              </div>
+              </div>
+               <div class="row mb-3">
+              <label for="quantidade_pagar" class="col-sm-2 col-form-label">Valor a pagar </label>
+              <div class="col-sm-5">
+                <input type="text" class="form-control" name="quantidade_pagar" value="<%=p.getPrecoPagar() %>">
+              </div>
+              </div>
 
             <button type="submit" class="btn btn-primary">Alterar</button>
           </form>

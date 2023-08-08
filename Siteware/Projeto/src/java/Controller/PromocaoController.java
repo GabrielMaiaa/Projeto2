@@ -59,11 +59,15 @@ public class PromocaoController extends HttpServlet {
                 r.forward(request, response);
             case 4: // efetuar a modificação em BD (recebe os dados atualizados e modifica em banco)
                 String nomePromoNovo = request.getParameter("nome_promocao");
+                int qtd_comprarNova = Integer.parseInt(request.getParameter("quantidade_comprar"));
+                Double valorPagar = Double.parseDouble(request.getParameter("valor_pagar"));
                 int codigo = Integer.parseInt(request.getParameter("id"));
                 
                 Promocao promocao = new Promocao();
                 promocao.setIdPromocao(codigo);
                 promocao.setNomePromocao(nomePromoNovo);
+                promocao.setQuantidadeComprar(qtd_comprarNova);
+                promocao.setPrecoPagar(valorPagar);
                 
                 PromocaoDAO promoDAO = new PromocaoDAO();
                 boolean sucesso = promoDAO.alterar(promocao);
@@ -75,11 +79,15 @@ public class PromocaoController extends HttpServlet {
                 }     
                 break;
             case 5:  
-                RequestDispatcher r2 = request.getRequestDispatcher("/inserirPromocao.jsp");
-                r2.forward(request, response);
-                String titulo = request.getParameter("nome_promocao");
+                String titulo = request.getParameter("titulo");
+                int qtd_comprar = Integer.parseInt(request.getParameter("quantidade_comprar"));
+                Double valorPagarI = Double.parseDouble(request.getParameter("preco_pagar"));
+                
                 Promocao pNovo = new Promocao();
                 pNovo.setNomePromocao(titulo);
+                pNovo.setQuantidadeComprar(qtd_comprar);
+                pNovo.setPrecoPagar(valorPagarI);
+                
                 if(p.inserirPromocao(pNovo)){
                      response.sendRedirect("resultadoPromocao.jsp?operacao=1");
                 }else{

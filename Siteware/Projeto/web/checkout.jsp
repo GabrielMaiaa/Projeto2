@@ -123,7 +123,7 @@
 
                 con = new Conexao().conectar();
                 
-                String sql = "SELECT id_carrinho, produto.id_produto, id_cliente, itens_qtd FROM carrinho INNER JOIN produto ON produto.id_produto = carrinho.id_produto";
+                String sql = "SELECT id_carrinho, produto.id_produto, id_cliente, itens_qtd, valor_total FROM carrinho INNER JOIN produto ON produto.id_produto = carrinho.id_produto";
                 ps = con.prepareStatement(sql);
                 rs = ps.executeQuery();
                 
@@ -152,7 +152,7 @@
               out.print("<li class='list-group-item d-flex justify-content-between'>");
               Double somaTotal = 0.0;
                   while(rs.next()){
-                    somaTotal = carr.getProdutoValor() * carr.getItens_qtd();
+                    somaTotal += carr.getValorTotalCarrinho();
                   }
               out.print("<span> Total R$ " + somaTotal + "</span>");
           %>

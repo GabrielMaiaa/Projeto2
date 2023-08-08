@@ -4341,3 +4341,1045 @@
 		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 22:57:52.338 INFORMAÇÕES [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 22:57:52.343 ADVERTÊNCIA [http-nio-8080-exec-55] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja#index.jsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Aug-2023 22:57:52.343 ADVERTÊNCIA [http-nio-8080-exec-55] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja#index.jsp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 22:57:52.506 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 22:57:52.507 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 22:57:52.508 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 22:57:52.508 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 22:57:52.538 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 22:57:52.539 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 22:57:52.540 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 22:57:52.540 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 22:57:52.803 INFORMAÇÕES [http-nio-8080-exec-55] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 22:57:52.807 INFORMAÇÕES [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 22:57:58.816 INFORMAÇÕES [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 22:57:59.512 INFORMAÇÕES [http-nio-8080-exec-53] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 22:57:59.519 INFORMAÇÕES [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 22:57:59.875 INFORMAÇÕES [http-nio-8080-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 22:58:00.622 INFORMAÇÕES [http-nio-8080-exec-52] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 22:58:00.628 INFORMAÇÕES [http-nio-8080-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:02:08.416 INFORMAÇÕES [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:02:08.848 INFORMAÇÕES [http-nio-8080-exec-50] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:02:08.851 INFORMAÇÕES [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:03:02.651 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:03:03.054 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:03:03.056 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:05:07.663 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:05:08.075 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:05:08.077 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:05:28.714 INFORMAÇÕES [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:05:29.102 INFORMAÇÕES [http-nio-8080-exec-67] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:05:29.104 INFORMAÇÕES [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:06:02.017 INFORMAÇÕES [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:06:02.433 INFORMAÇÕES [http-nio-8080-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:06:02.435 INFORMAÇÕES [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:06:15.718 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:06:16.117 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:06:16.119 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:07:20.978 INFORMAÇÕES [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:07:21.429 INFORMAÇÕES [http-nio-8080-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:07:21.431 INFORMAÇÕES [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:07:38.042 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:07:38.445 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:07:38.448 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:08:08.504 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:08:08.933 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:08:08.935 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:08:12.662 INFORMAÇÕES [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:08:13.092 INFORMAÇÕES [http-nio-8080-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:08:13.094 INFORMAÇÕES [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:09:07.550 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:09:07.978 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:09:07.980 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:09:11.501 INFORMAÇÕES [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:09:11.890 INFORMAÇÕES [http-nio-8080-exec-77] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:09:11.893 INFORMAÇÕES [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:09:13.280 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:09:13.670 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:09:13.673 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:09:22.359 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:09:22.826 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:09:22.829 INFORMAÇÕES [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:16:09.230 INFORMAÇÕES [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:16:09.634 INFORMAÇÕES [http-nio-8080-exec-85] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:16:09.637 INFORMAÇÕES [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:16:17.306 INFORMAÇÕES [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:16:17.696 INFORMAÇÕES [http-nio-8080-exec-91] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:16:17.699 INFORMAÇÕES [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:16:24.568 INFORMAÇÕES [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:16:24.970 INFORMAÇÕES [http-nio-8080-exec-89] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:16:24.973 INFORMAÇÕES [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:16:36.739 INFORMAÇÕES [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:16:37.181 INFORMAÇÕES [http-nio-8080-exec-93] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:16:37.184 INFORMAÇÕES [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:16:59.802 INFORMAÇÕES [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:17:00.206 INFORMAÇÕES [http-nio-8080-exec-91] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:17:00.208 INFORMAÇÕES [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:17:02.606 INFORMAÇÕES [http-nio-8080-exec-95] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:17:02.996 INFORMAÇÕES [http-nio-8080-exec-95] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:17:02.998 INFORMAÇÕES [http-nio-8080-exec-95] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:17:30.116 INFORMAÇÕES [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:17:30.520 INFORMAÇÕES [http-nio-8080-exec-86] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:17:30.523 INFORMAÇÕES [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:17:35.150 INFORMAÇÕES [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:17:35.588 INFORMAÇÕES [http-nio-8080-exec-89] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:17:35.590 INFORMAÇÕES [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:17:37.664 INFORMAÇÕES [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:17:38.043 INFORMAÇÕES [http-nio-8080-exec-98] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:17:38.045 INFORMAÇÕES [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:19:00.456 INFORMAÇÕES [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:19:00.904 INFORMAÇÕES [http-nio-8080-exec-91] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:19:00.907 INFORMAÇÕES [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:19:01.243 INFORMAÇÕES [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:19:01.625 INFORMAÇÕES [http-nio-8080-exec-99] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:19:01.628 INFORMAÇÕES [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:19:06.188 INFORMAÇÕES [http-nio-8080-exec-96] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:19:06.659 INFORMAÇÕES [http-nio-8080-exec-96] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:19:06.662 INFORMAÇÕES [http-nio-8080-exec-96] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:19:07.001 INFORMAÇÕES [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:19:07.522 INFORMAÇÕES [http-nio-8080-exec-101] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:19:07.524 INFORMAÇÕES [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:19:25.117 INFORMAÇÕES [http-nio-8080-exec-96] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:19:25.519 INFORMAÇÕES [http-nio-8080-exec-96] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:19:25.521 INFORMAÇÕES [http-nio-8080-exec-96] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:19:25.849 INFORMAÇÕES [http-nio-8080-exec-104] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:19:26.332 INFORMAÇÕES [http-nio-8080-exec-104] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:19:26.335 INFORMAÇÕES [http-nio-8080-exec-104] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:20:28.652 INFORMAÇÕES [http-nio-8080-exec-105] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:20:29.041 INFORMAÇÕES [http-nio-8080-exec-105] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:20:29.043 INFORMAÇÕES [http-nio-8080-exec-105] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:21:00.103 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:21:00.499 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:21:00.502 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:21:35.076 INFORMAÇÕES [http-nio-8080-exec-105] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:21:35.519 INFORMAÇÕES [http-nio-8080-exec-105] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:21:35.522 INFORMAÇÕES [http-nio-8080-exec-105] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:21:50.127 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:21:50.538 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:21:50.540 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:21:56.511 INFORMAÇÕES [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Loja/index.jsp]
+07-Aug-2023 23:22:38.827 INFORMAÇÕES [http-nio-8080-exec-115] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:22:38.828 ADVERTÊNCIA [http-nio-8080-exec-115] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:22:39.345 INFORMAÇÕES [http-nio-8080-exec-115] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:22:39.349 INFORMAÇÕES [http-nio-8080-exec-115] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [522] ms
+07-Aug-2023 23:22:39.353 INFORMAÇÕES [http-nio-8080-exec-105] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Loja/index.jsp]] after start() had already been called. The second call will be ignored.
+07-Aug-2023 23:23:17.362 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Aug-2023 23:23:17.362 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:23:17.493 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Aug-2023 23:23:17.513 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja#index.jsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Aug-2023 23:23:17.513 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja#index.jsp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:23:17.519 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:23:17.535 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:24:59.408 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.63
+07-Aug-2023 23:24:59.410 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2022 07:52:11 UTC
+07-Aug-2023 23:24:59.411 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.63.0
+07-Aug-2023 23:24:59.411 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Aug-2023 23:24:59.411 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Aug-2023 23:24:59.411 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Aug-2023 23:24:59.411 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_341\jre
+07-Aug-2023 23:24:59.411 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_341-b10
+07-Aug-2023 23:24:59.411 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Aug-2023 23:24:59.411 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:24:59.411 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:24:59.412 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\logging.properties
+07-Aug-2023 23:24:59.413 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2023 23:24:59.413 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|GabrielMaia
+07-Aug-2023 23:24:59.413 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2023 23:24:59.413 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2023 23:24:59.413 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Aug-2023 23:24:59.413 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:24:59.413 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:24:59.413 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\temp
+07-Aug-2023 23:24:59.416 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+07-Aug-2023 23:24:59.416 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Aug-2023 23:24:59.416 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Aug-2023 23:24:59.421 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+07-Aug-2023 23:24:59.842 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:24:59.869 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [662] milliseconds
+07-Aug-2023 23:24:59.917 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Aug-2023 23:24:59.917 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.63]
+07-Aug-2023 23:24:59.930 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:24:59.947 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:25:00.715 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:25:00.874 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [136] milliseconds.
+07-Aug-2023 23:25:00.902 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [972] ms
+07-Aug-2023 23:25:00.903 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs]
+07-Aug-2023 23:25:00.930 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs] has finished in [27] ms
+07-Aug-2023 23:25:00.930 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples]
+07-Aug-2023 23:25:01.298 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples] has finished in [368] ms
+07-Aug-2023 23:25:01.299 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager]
+07-Aug-2023 23:25:01.344 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager] has finished in [45] ms
+07-Aug-2023 23:25:01.345 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager]
+07-Aug-2023 23:25:01.382 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager] has finished in [37] ms
+07-Aug-2023 23:25:01.382 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT]
+07-Aug-2023 23:25:01.417 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT] has finished in [35] ms
+07-Aug-2023 23:25:01.434 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:25:01.451 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1581] milliseconds
+07-Aug-2023 23:25:01.589 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:25:02.053 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:25:02.059 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:27:03.798 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:27:03.802 ADVERTÊNCIA [http-nio-8080-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja#index.jsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Aug-2023 23:27:03.802 ADVERTÊNCIA [http-nio-8080-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja#index.jsp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:27:04.148 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:27:04.150 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:27:04.150 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:27:04.150 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:27:04.208 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:27:04.209 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:27:04.209 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:27:04.210 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:27:04.264 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:27:04.303 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:27:04.309 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:28:21.265 ADVERTÊNCIA [http-nio-8080-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja#index.jsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Aug-2023 23:28:21.266 ADVERTÊNCIA [http-nio-8080-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja#index.jsp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:28:21.778 INFORMAÇÕES [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Loja/index.jsp]
+07-Aug-2023 23:28:22.304 INFORMAÇÕES [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Loja/index.jsp]
+07-Aug-2023 23:28:22.909 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:28:23.428 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Aug-2023 23:28:23.429 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:28:23.560 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Aug-2023 23:28:23.572 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:28:23.591 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:28:26.750 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.63
+07-Aug-2023 23:28:26.753 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2022 07:52:11 UTC
+07-Aug-2023 23:28:26.753 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.63.0
+07-Aug-2023 23:28:26.753 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Aug-2023 23:28:26.753 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Aug-2023 23:28:26.754 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Aug-2023 23:28:26.754 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_341\jre
+07-Aug-2023 23:28:26.754 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_341-b10
+07-Aug-2023 23:28:26.754 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Aug-2023 23:28:26.754 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:28:26.754 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:28:26.756 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\logging.properties
+07-Aug-2023 23:28:26.756 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2023 23:28:26.756 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|GabrielMaia
+07-Aug-2023 23:28:26.756 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2023 23:28:26.756 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2023 23:28:26.756 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+07-Aug-2023 23:28:26.756 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Aug-2023 23:28:26.756 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:28:26.756 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:28:26.756 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\temp
+07-Aug-2023 23:28:26.760 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+07-Aug-2023 23:28:26.760 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Aug-2023 23:28:26.760 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Aug-2023 23:28:26.865 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+07-Aug-2023 23:28:27.269 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:28:27.294 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [819] milliseconds
+07-Aug-2023 23:28:27.341 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Aug-2023 23:28:27.341 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.63]
+07-Aug-2023 23:28:27.350 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs]
+07-Aug-2023 23:28:27.767 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [140] milliseconds.
+07-Aug-2023 23:28:27.795 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs] has finished in [444] ms
+07-Aug-2023 23:28:27.795 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples]
+07-Aug-2023 23:28:28.234 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples] has finished in [439] ms
+07-Aug-2023 23:28:28.235 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager]
+07-Aug-2023 23:28:28.289 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager] has finished in [53] ms
+07-Aug-2023 23:28:28.289 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager]
+07-Aug-2023 23:28:28.329 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager] has finished in [40] ms
+07-Aug-2023 23:28:28.329 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT]
+07-Aug-2023 23:28:28.356 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT] has finished in [26] ms
+07-Aug-2023 23:28:28.361 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:28:28.377 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1083] milliseconds
+07-Aug-2023 23:28:28.754 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:28:28.755 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:28:29.272 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:28:29.278 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [524] ms
+07-Aug-2023 23:28:29.281 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Loja/index.jsp]] after start() had already been called. The second call will be ignored.
+07-Aug-2023 23:28:50.981 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Aug-2023 23:28:50.981 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:28:51.101 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Aug-2023 23:28:51.127 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja#index.jsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Aug-2023 23:28:51.128 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja#index.jsp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:28:51.133 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:28:51.141 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:29:01.646 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.63
+07-Aug-2023 23:29:01.649 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2022 07:52:11 UTC
+07-Aug-2023 23:29:01.649 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.63.0
+07-Aug-2023 23:29:01.649 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Aug-2023 23:29:01.649 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Aug-2023 23:29:01.649 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Aug-2023 23:29:01.649 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_341\jre
+07-Aug-2023 23:29:01.650 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_341-b10
+07-Aug-2023 23:29:01.650 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Aug-2023 23:29:01.650 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:29:01.650 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:29:01.651 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\logging.properties
+07-Aug-2023 23:29:01.652 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2023 23:29:01.652 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|GabrielMaia
+07-Aug-2023 23:29:01.652 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2023 23:29:01.652 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2023 23:29:01.652 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+07-Aug-2023 23:29:01.652 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Aug-2023 23:29:01.652 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:29:01.652 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:29:01.652 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\temp
+07-Aug-2023 23:29:01.656 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+07-Aug-2023 23:29:01.656 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Aug-2023 23:29:01.656 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Aug-2023 23:29:01.757 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+07-Aug-2023 23:29:02.187 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:29:02.220 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [834] milliseconds
+07-Aug-2023 23:29:02.272 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Aug-2023 23:29:02.272 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.63]
+07-Aug-2023 23:29:02.286 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:29:02.311 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:29:03.139 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:29:03.308 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [141] milliseconds.
+07-Aug-2023 23:29:03.340 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [1.054] ms
+07-Aug-2023 23:29:03.341 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs]
+07-Aug-2023 23:29:03.371 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs] has finished in [30] ms
+07-Aug-2023 23:29:03.372 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples]
+07-Aug-2023 23:29:03.738 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples] has finished in [366] ms
+07-Aug-2023 23:29:03.738 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager]
+07-Aug-2023 23:29:03.783 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager] has finished in [45] ms
+07-Aug-2023 23:29:03.783 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager]
+07-Aug-2023 23:29:03.822 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager] has finished in [39] ms
+07-Aug-2023 23:29:03.822 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT]
+07-Aug-2023 23:29:03.855 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT] has finished in [33] ms
+07-Aug-2023 23:29:03.874 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:29:03.894 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1674] milliseconds
+07-Aug-2023 23:29:04.797 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Loja/index.jsp]
+07-Aug-2023 23:29:04.822 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:29:04.823 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:29:05.321 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:29:05.327 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [505] ms
+07-Aug-2023 23:29:05.331 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Loja/index.jsp]] after start() had already been called. The second call will be ignored.
+07-Aug-2023 23:31:15.953 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Aug-2023 23:31:15.954 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:31:16.101 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Aug-2023 23:31:16.123 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja#index.jsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Aug-2023 23:31:16.123 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja#index.jsp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:31:16.130 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:31:16.141 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:31:28.127 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.63
+07-Aug-2023 23:31:28.129 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2022 07:52:11 UTC
+07-Aug-2023 23:31:28.129 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.63.0
+07-Aug-2023 23:31:28.129 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Aug-2023 23:31:28.129 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Aug-2023 23:31:28.130 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Aug-2023 23:31:28.130 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_341\jre
+07-Aug-2023 23:31:28.130 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_341-b10
+07-Aug-2023 23:31:28.130 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Aug-2023 23:31:28.130 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:31:28.130 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:31:28.131 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\logging.properties
+07-Aug-2023 23:31:28.131 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2023 23:31:28.131 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|GabrielMaia
+07-Aug-2023 23:31:28.131 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2023 23:31:28.132 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2023 23:31:28.132 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+07-Aug-2023 23:31:28.132 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Aug-2023 23:31:28.132 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:31:28.132 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:31:28.132 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\temp
+07-Aug-2023 23:31:28.135 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+07-Aug-2023 23:31:28.135 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Aug-2023 23:31:28.135 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Aug-2023 23:31:28.194 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+07-Aug-2023 23:31:28.618 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:31:28.647 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [783] milliseconds
+07-Aug-2023 23:31:28.699 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Aug-2023 23:31:28.700 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.63]
+07-Aug-2023 23:31:28.714 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:31:28.736 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:31:29.546 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:31:29.714 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [141] milliseconds.
+07-Aug-2023 23:31:29.752 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [1.039] ms
+07-Aug-2023 23:31:29.753 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs]
+07-Aug-2023 23:31:29.789 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs] has finished in [36] ms
+07-Aug-2023 23:31:29.789 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples]
+07-Aug-2023 23:31:30.180 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples] has finished in [391] ms
+07-Aug-2023 23:31:30.181 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager]
+07-Aug-2023 23:31:30.230 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager] has finished in [50] ms
+07-Aug-2023 23:31:30.231 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager]
+07-Aug-2023 23:31:30.279 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager] has finished in [49] ms
+07-Aug-2023 23:31:30.280 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT]
+07-Aug-2023 23:31:30.323 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT] has finished in [42] ms
+07-Aug-2023 23:31:30.328 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:31:30.346 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1698] milliseconds
+07-Aug-2023 23:31:31.194 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Loja/index.jsp]
+07-Aug-2023 23:31:31.222 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:31:31.223 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:31:31.695 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:31:31.701 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [479] ms
+07-Aug-2023 23:31:31.706 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Loja/index.jsp]] after start() had already been called. The second call will be ignored.
+07-Aug-2023 23:40:01.335 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Aug-2023 23:40:01.336 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:40:01.474 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Aug-2023 23:40:01.492 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja#index.jsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Aug-2023 23:40:01.492 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja#index.jsp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:40:01.498 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:40:01.513 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:40:08.633 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.63
+07-Aug-2023 23:40:08.635 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2022 07:52:11 UTC
+07-Aug-2023 23:40:08.636 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.63.0
+07-Aug-2023 23:40:08.636 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Aug-2023 23:40:08.636 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Aug-2023 23:40:08.636 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Aug-2023 23:40:08.636 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_341\jre
+07-Aug-2023 23:40:08.636 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_341-b10
+07-Aug-2023 23:40:08.636 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Aug-2023 23:40:08.636 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:40:08.636 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:40:08.638 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\logging.properties
+07-Aug-2023 23:40:08.638 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2023 23:40:08.638 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|GabrielMaia
+07-Aug-2023 23:40:08.638 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2023 23:40:08.638 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2023 23:40:08.638 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+07-Aug-2023 23:40:08.638 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Aug-2023 23:40:08.638 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:40:08.638 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:40:08.638 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\temp
+07-Aug-2023 23:40:08.642 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+07-Aug-2023 23:40:08.642 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Aug-2023 23:40:08.642 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Aug-2023 23:40:08.652 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+07-Aug-2023 23:40:09.064 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:40:09.096 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [741] milliseconds
+07-Aug-2023 23:40:09.144 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Aug-2023 23:40:09.144 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.63]
+07-Aug-2023 23:40:09.157 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:40:09.178 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:40:10.008 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:40:10.173 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [137] milliseconds.
+07-Aug-2023 23:40:10.207 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [1.050] ms
+07-Aug-2023 23:40:10.209 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs]
+07-Aug-2023 23:40:10.237 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs] has finished in [29] ms
+07-Aug-2023 23:40:10.238 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples]
+07-Aug-2023 23:40:10.639 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples] has finished in [402] ms
+07-Aug-2023 23:40:10.639 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager]
+07-Aug-2023 23:40:10.684 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager] has finished in [45] ms
+07-Aug-2023 23:40:10.685 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager]
+07-Aug-2023 23:40:10.724 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager] has finished in [39] ms
+07-Aug-2023 23:40:10.724 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT]
+07-Aug-2023 23:40:10.752 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT] has finished in [28] ms
+07-Aug-2023 23:40:10.769 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:40:10.790 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1692] milliseconds
+07-Aug-2023 23:40:11.677 INFORMAÇÕES [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Loja/index.jsp]
+07-Aug-2023 23:40:11.702 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:40:11.703 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:40:12.200 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:40:12.206 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [503] ms
+07-Aug-2023 23:40:12.210 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Loja/index.jsp]] after start() had already been called. The second call will be ignored.
+07-Aug-2023 23:42:03.197 ADVERTÊNCIA [http-nio-8080-exec-11] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja#index.jsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Aug-2023 23:42:03.198 ADVERTÊNCIA [http-nio-8080-exec-11] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja#index.jsp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:03.711 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Loja/index.jsp]
+07-Aug-2023 23:42:03.732 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:42:03.733 ADVERTÊNCIA [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:42:04.044 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.045 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.045 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.046 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.094 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.095 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.096 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.097 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.189 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:42:04.190 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.191 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.192 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.196 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [464] ms
+07-Aug-2023 23:42:04.252 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.253 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.254 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.256 INFORMAÇÕES [http-nio-8080-exec-14] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Loja/index.jsp]] after start() had already been called. The second call will be ignored.
+07-Aug-2023 23:42:04.315 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.316 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.317 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:42:04.378 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:45:28.543 INFORMAÇÕES [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:45:28.549 ADVERTÊNCIA [http-nio-8080-exec-28] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja#index.jsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Aug-2023 23:45:28.549 ADVERTÊNCIA [http-nio-8080-exec-28] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja#index.jsp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:45:29.030 INFORMAÇÕES [http-nio-8080-exec-28] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:45:29.034 INFORMAÇÕES [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:45:29.589 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:45:49.291 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:45:49.750 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:45:49.754 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:46:02.908 INFORMAÇÕES [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:46:03.330 INFORMAÇÕES [http-nio-8080-exec-21] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:46:03.334 INFORMAÇÕES [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:46:24.042 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:46:24.450 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:46:24.454 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:46:25.193 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:46:25.611 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:46:25.614 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:47:01.995 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] has started
+07-Aug-2023 23:47:02.497 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:47:02.501 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Loja/index.jsp] is completed
+07-Aug-2023 23:51:15.561 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Aug-2023 23:51:15.562 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:51:15.721 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Aug-2023 23:51:15.847 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja#index.jsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Aug-2023 23:51:15.847 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja#index.jsp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:51:15.853 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:51:15.866 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:51:29.160 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.63
+07-Aug-2023 23:51:29.164 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2022 07:52:11 UTC
+07-Aug-2023 23:51:29.164 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.63.0
+07-Aug-2023 23:51:29.164 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Aug-2023 23:51:29.164 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Aug-2023 23:51:29.164 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Aug-2023 23:51:29.164 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_341\jre
+07-Aug-2023 23:51:29.164 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_341-b10
+07-Aug-2023 23:51:29.164 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Aug-2023 23:51:29.164 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:51:29.164 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:51:29.166 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\logging.properties
+07-Aug-2023 23:51:29.166 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2023 23:51:29.166 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|GabrielMaia
+07-Aug-2023 23:51:29.167 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2023 23:51:29.167 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2023 23:51:29.167 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+07-Aug-2023 23:51:29.167 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Aug-2023 23:51:29.167 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:51:29.167 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:51:29.167 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\temp
+07-Aug-2023 23:51:29.214 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+07-Aug-2023 23:51:29.214 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Aug-2023 23:51:29.214 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Aug-2023 23:51:29.258 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+07-Aug-2023 23:51:29.702 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:51:29.737 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [825] milliseconds
+07-Aug-2023 23:51:29.787 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Aug-2023 23:51:29.787 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.63]
+07-Aug-2023 23:51:29.798 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:51:29.822 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:51:30.612 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:51:30.781 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [140] milliseconds.
+07-Aug-2023 23:51:30.823 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [1.025] ms
+07-Aug-2023 23:51:30.824 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs]
+07-Aug-2023 23:51:30.865 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs] has finished in [41] ms
+07-Aug-2023 23:51:30.866 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples]
+07-Aug-2023 23:51:31.643 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples] has finished in [778] ms
+07-Aug-2023 23:51:31.643 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager]
+07-Aug-2023 23:51:31.698 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager] has finished in [55] ms
+07-Aug-2023 23:51:31.698 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager]
+07-Aug-2023 23:51:31.745 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager] has finished in [46] ms
+07-Aug-2023 23:51:31.745 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT]
+07-Aug-2023 23:51:31.774 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT] has finished in [29] ms
+07-Aug-2023 23:51:31.792 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:51:31.808 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [2071] milliseconds
+07-Aug-2023 23:51:35.641 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Loja/index.jsp]
+07-Aug-2023 23:51:35.673 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:51:35.674 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:51:36.102 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:51:36.106 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [433] ms
+07-Aug-2023 23:51:36.111 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Loja/index.jsp]] after start() had already been called. The second call will be ignored.
+07-Aug-2023 23:54:50.395 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Aug-2023 23:54:50.395 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:54:50.541 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Aug-2023 23:54:50.563 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja#index.jsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Aug-2023 23:54:50.563 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja#index.jsp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:54:50.570 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:54:50.580 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:54:52.657 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.63
+07-Aug-2023 23:54:52.659 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2022 07:52:11 UTC
+07-Aug-2023 23:54:52.659 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.63.0
+07-Aug-2023 23:54:52.659 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Aug-2023 23:54:52.659 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Aug-2023 23:54:52.659 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Aug-2023 23:54:52.659 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_341\jre
+07-Aug-2023 23:54:52.660 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_341-b10
+07-Aug-2023 23:54:52.660 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Aug-2023 23:54:52.660 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:54:52.660 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:54:52.661 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\logging.properties
+07-Aug-2023 23:54:52.661 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2023 23:54:52.661 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|GabrielMaia
+07-Aug-2023 23:54:52.662 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2023 23:54:52.662 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2023 23:54:52.662 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+07-Aug-2023 23:54:52.662 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Aug-2023 23:54:52.662 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:54:52.662 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:54:52.662 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\temp
+07-Aug-2023 23:54:52.665 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+07-Aug-2023 23:54:52.665 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Aug-2023 23:54:52.665 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Aug-2023 23:54:52.673 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+07-Aug-2023 23:54:53.103 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:54:53.134 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [717] milliseconds
+07-Aug-2023 23:54:53.177 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Aug-2023 23:54:53.177 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.63]
+07-Aug-2023 23:54:53.189 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:54:53.209 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:54:53.964 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:54:54.132 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [141] milliseconds.
+07-Aug-2023 23:54:54.167 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [977] ms
+07-Aug-2023 23:54:54.168 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs]
+07-Aug-2023 23:54:54.197 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs] has finished in [30] ms
+07-Aug-2023 23:54:54.197 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples]
+07-Aug-2023 23:54:54.602 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples] has finished in [405] ms
+07-Aug-2023 23:54:54.602 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager]
+07-Aug-2023 23:54:54.649 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager] has finished in [47] ms
+07-Aug-2023 23:54:54.649 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager]
+07-Aug-2023 23:54:54.690 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager] has finished in [40] ms
+07-Aug-2023 23:54:54.690 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT]
+07-Aug-2023 23:54:54.716 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT] has finished in [26] ms
+07-Aug-2023 23:54:54.732 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:54:54.749 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1615] milliseconds
+07-Aug-2023 23:54:55.586 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Loja/index.jsp]
+07-Aug-2023 23:54:55.614 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:54:55.616 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:54:56.059 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:54:56.064 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [450] ms
+07-Aug-2023 23:54:56.068 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Loja/index.jsp]] after start() had already been called. The second call will be ignored.
+07-Aug-2023 23:57:47.391 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Aug-2023 23:57:47.392 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:57:47.519 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Aug-2023 23:57:47.537 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja#index.jsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Aug-2023 23:57:47.537 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja#index.jsp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:57:47.542 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:57:47.557 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:58:38.001 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.63
+07-Aug-2023 23:58:38.004 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 11 2022 07:52:11 UTC
+07-Aug-2023 23:58:38.005 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.63.0
+07-Aug-2023 23:58:38.005 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Aug-2023 23:58:38.005 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Aug-2023 23:58:38.005 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Aug-2023 23:58:38.005 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_341\jre
+07-Aug-2023 23:58:38.005 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_341-b10
+07-Aug-2023 23:58:38.005 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Aug-2023 23:58:38.005 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:58:38.005 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:58:38.007 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\logging.properties
+07-Aug-2023 23:58:38.007 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2023 23:58:38.007 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|GabrielMaia
+07-Aug-2023 23:58:38.007 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2023 23:58:38.007 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2023 23:58:38.007 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+07-Aug-2023 23:58:38.007 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Aug-2023 23:58:38.007 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:58:38.007 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63
+07-Aug-2023 23:58:38.007 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\temp
+07-Aug-2023 23:58:38.011 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+07-Aug-2023 23:58:38.011 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Aug-2023 23:58:38.011 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Aug-2023 23:58:38.020 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+07-Aug-2023 23:58:38.467 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:58:38.495 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [770] milliseconds
+07-Aug-2023 23:58:38.562 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Aug-2023 23:58:38.562 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.63]
+07-Aug-2023 23:58:38.575 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:58:38.596 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:58:39.441 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:58:39.645 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [169] milliseconds.
+07-Aug-2023 23:58:39.683 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [1.107] ms
+07-Aug-2023 23:58:39.684 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs]
+07-Aug-2023 23:58:39.717 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\docs] has finished in [33] ms
+07-Aug-2023 23:58:39.717 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples]
+07-Aug-2023 23:58:40.180 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\examples] has finished in [463] ms
+07-Aug-2023 23:58:40.181 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager]
+07-Aug-2023 23:58:40.228 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\host-manager] has finished in [48] ms
+07-Aug-2023 23:58:40.228 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager]
+07-Aug-2023 23:58:40.273 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\manager] has finished in [45] ms
+07-Aug-2023 23:58:40.273 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT]
+07-Aug-2023 23:58:40.307 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\webapps\ROOT] has finished in [34] ms
+07-Aug-2023 23:58:40.325 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Aug-2023 23:58:40.344 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1848] milliseconds
+07-Aug-2023 23:58:41.211 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Loja/index.jsp]
+07-Aug-2023 23:58:41.251 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:58:41.253 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:58:41.860 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:58:41.871 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [620] ms
+07-Aug-2023 23:58:41.878 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Loja/index.jsp]] after start() had already been called. The second call will be ignored.
+07-Aug-2023 23:59:48.945 ADVERTÊNCIA [http-nio-8080-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Loja#index.jsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Aug-2023 23:59:48.946 ADVERTÊNCIA [http-nio-8080-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Loja#index.jsp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:59:49.099 INFORMAÇÕES [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1057)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+07-Aug-2023 23:59:49.449 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Loja/index.jsp]
+07-Aug-2023 23:59:49.477 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml]
+07-Aug-2023 23:59:49.478 ADVERTÊNCIA [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Loja/index.jsp] in deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has been ignored
+07-Aug-2023 23:59:49.995 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2023 23:59:49.999 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Pichau\Desktop\Projeto\Projeto2\Siteware\apache-tomcat-9.0.63\conf\Catalina\localhost\Loja#index.jsp.xml] has finished in [522] ms
+07-Aug-2023 23:59:50.002 INFORMAÇÕES [http-nio-8080-exec-17] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Loja/index.jsp]] after start() had already been called. The second call will be ignored.

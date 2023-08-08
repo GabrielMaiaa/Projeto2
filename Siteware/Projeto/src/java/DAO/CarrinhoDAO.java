@@ -25,7 +25,7 @@ public class CarrinhoDAO {
         try {
             con = new Conexao().conectar();
             if (con != null) {
-                String sql = "SELECT id_carrinho, produto.id_produto, produto.nome, produto.valor, id_cliente, itens_qtd FROM carrinho INNER JOIN produto ON produto.id_produto = carrinho.id_produto";
+                String sql = "SELECT id_carrinho, produto.id_produto, produto.nome, produto.valor, id_cliente, itens_qtd, valor_total FROM carrinho INNER JOIN produto ON produto.id_produto = carrinho.id_produto";
                 ps = con.prepareStatement(sql);
                 rs = ps.executeQuery();
                 ArrayList<Carrinho> listaItensCarrinho = new ArrayList<>();
@@ -39,6 +39,7 @@ public class CarrinhoDAO {
                     car.setProdutoValor(rs.getDouble("produto.valor"));
                     car.setId_cliente(rs.getInt("id_cliente"));
                     car.setItens_qtd(rs.getInt("itens_qtd"));
+                    car.setValorTotalCarrinho(rs.getDouble("valor_total"));
                     listaItensCarrinho.add(car); // adiciona o objeto no arraylist
                 }
                 con.close();
@@ -75,7 +76,7 @@ public class CarrinhoDAO {
     
     public boolean inserirItensCarrinho(Carrinho c){
         Connection con = new Conexao().conectar();
-        String sql = "INSERT INTO carrinho (id_produto, id_cliente, itens_qtd) VALUES (?,?,?)";
+        String sql = "INSERT INTO carrinho (id_produto, id_cliente, itens_qtd, valor_total) VALUES (?,?,?,?)";
         
         if (con != null) {
             try {
@@ -85,6 +86,7 @@ public class CarrinhoDAO {
                 ps.setInt(1, c.getId_produto());
                 ps.setInt(2, 1);
                 ps.setInt(3, c.getItens_qtd());
+                ps.setDouble(4, c.getValorTotalCarrinho());
                 
                 System.out.println(sql);
                 

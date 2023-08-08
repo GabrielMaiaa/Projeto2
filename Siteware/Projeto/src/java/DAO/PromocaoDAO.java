@@ -25,7 +25,7 @@ public class PromocaoDAO {
         try {
             con = new Conexao().conectar();
             if (con != null) {
-                String sql = "SELECT id_promocao, nome_promocao FROM promocao";
+                String sql = "SELECT id_promocao, nome_promocao, quantidade_comprar, preco_pagar FROM promocao";
                 ps = con.prepareStatement(sql);
                 rs = ps.executeQuery();
                 ArrayList<Promocao> listaPromocao = new ArrayList<>();
@@ -35,6 +35,8 @@ public class PromocaoDAO {
                     Promocao p = new Promocao();
                     p.setIdPromocao(rs.getInt("id_promocao"));
                     p.setNomePromocao(rs.getString("nome_promocao"));
+                    p.setQuantidadeComprar(rs.getInt("quantidade_comprar"));
+                    p.setPrecoPagar(rs.getDouble("preco_pagar"));
                     listaPromocao.add(p); // adiciona o objeto no arraylist
                 }
                 con.close();
@@ -78,7 +80,7 @@ public class PromocaoDAO {
         try {
             con = new Conexao().conectar();
             if (con != null) {
-                String sql = "select id_promocao, nome_promocao from promocao where id_promocao = ?";
+                String sql = "select id_promocao, nome_promocao, quantidade_comprar, preco_pagar from promocao where id_promocao = ?";
                 ps = con.prepareStatement(sql);
                 ps.setInt(1, id);
                 rs = ps.executeQuery();
@@ -87,6 +89,8 @@ public class PromocaoDAO {
                 Promocao p = new Promocao();
                 p.setIdPromocao(rs.getInt("id_promocao"));
                 p.setNomePromocao(rs.getString("nome_promocao"));
+                p.setQuantidadeComprar(rs.getInt("quantidade_comprar"));
+                p.setPrecoPagar(rs.getDouble("preco_pagar"));
                 con.close();
                 return p;
             } else {
@@ -103,10 +107,12 @@ public class PromocaoDAO {
         if (con != null) {
             try {
                 PreparedStatement ps;
-                String sql = "UPDATE promocao SET nome_promocao=? WHERE id_promocao=?";
+                String sql = "UPDATE promocao SET nome_promocao=?, quantidade_comprar=?, preco_pagar=?  WHERE id_promocao=?";
                 ps = con.prepareStatement(sql);
                 ps.setString(1, p.getNomePromocao());
-                ps.setInt(2, p.getIdPromocao());
+                ps.setInt(2, p.getQuantidadeComprar());
+                ps.setDouble(3, p.getPrecoPagar());
+                ps.setInt(4, p.getIdPromocao());
                 if (ps.executeUpdate() != 0) {
                     con.close();
                     return true;
@@ -121,16 +127,18 @@ public class PromocaoDAO {
         }
     }
     
-    public boolean inserirPromocao(Promocao l){
+    public boolean inserirPromocao(Promocao p){
         Connection con = new Conexao().conectar();
-        String sql = "INSERT INTO promocao (nome_promocao) VALUES (?)";
+        String sql = "INSERT INTO promocao (nome_promocao, quantidade_comprar, preco_pagar) VALUES (?,?,?)";
         
         if (con != null) {
             try {
                 PreparedStatement ps;
                 ps = con.prepareStatement(sql);
                 
-                ps.setString(1, l.getNomePromocao());
+                ps.setString(1, p.getNomePromocao());
+                ps.setInt(2, p.getQuantidadeComprar());
+                ps.setDouble(3, p.getPrecoPagar());
                 ps.executeUpdate();
                 con.close();
                 return true;

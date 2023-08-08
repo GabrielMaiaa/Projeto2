@@ -1,0 +1,5 @@
+08-Aug-2023 00:00:29.925 INFORMAÇÕES [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+08-Aug-2023 00:00:40.982 INFORMAÇÕES [http-nio-8080-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+08-Aug-2023 00:01:17.109 INFORMAÇÕES [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+08-Aug-2023 00:01:56.863 INFORMAÇÕES [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+08-Aug-2023 00:01:56.874 INFORMAÇÕES [http-nio-8080-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Loja/index.jsp'
