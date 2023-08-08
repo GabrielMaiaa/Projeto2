@@ -25,7 +25,7 @@ public class CarrinhoDAO {
         try {
             con = new Conexao().conectar();
             if (con != null) {
-                String sql = "SELECT id_carrinho, produto.id_produto, produto_nome, produto_valor, id_cliente, itens_qtd FROM carrinho INNER JOIN produto ON produto.id_produto = carrinho.id_produto";
+                String sql = "SELECT id_carrinho, produto.id_produto, produto.nome, produto.valor, id_cliente, itens_qtd FROM carrinho INNER JOIN produto ON produto.id_produto = carrinho.id_produto";
                 ps = con.prepareStatement(sql);
                 rs = ps.executeQuery();
                 ArrayList<Carrinho> listaItensCarrinho = new ArrayList<>();
@@ -35,8 +35,8 @@ public class CarrinhoDAO {
                     Carrinho car = new Carrinho();
                     car.setId_carrinho(rs.getInt("id_carrinho"));
                     car.setId_produto(rs.getInt("id_produto"));
-                    car.setProdutoNome(rs.getString("produto_nome"));
-                    car.setProdutoValor(rs.getDouble("produto_valor"));
+                    car.setProdutoNome(rs.getString("produto.nome"));
+                    car.setProdutoValor(rs.getDouble("produto.valor"));
                     car.setId_cliente(rs.getInt("id_cliente"));
                     car.setItens_qtd(rs.getInt("itens_qtd"));
                     listaItensCarrinho.add(car); // adiciona o objeto no arraylist
@@ -85,6 +85,8 @@ public class CarrinhoDAO {
                 ps.setInt(1, c.getId_produto());
                 ps.setInt(2, 1);
                 ps.setInt(3, c.getItens_qtd());
+                
+                System.out.println(sql);
                 
                 ps.executeUpdate();
                 con.close();

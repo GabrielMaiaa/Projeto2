@@ -1,4 +1,6 @@
- <%@page import="java.util.List"%>
+
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.List"%>
 
 <%@page import= "VO.Produtos" %>
 <%@page import= "DAO.ProdutosDAO" %>
@@ -28,13 +30,13 @@
 
     <body>
         <br>
-        
         <nav class="navbar bg-body-tertiary">
         <div class="container-fluid" style="margin-left: 100px; margin-right: 100px;">
             <a class="navbar-brand" href="ProdutosController?operacao=1">Produtos</a>
             <form class="d-flex" role="search">
                  <button class="btn btn-outline-success" type="submit"><a href="login.jsp" style="text-decoration: none; color:green;" onMouseOver="this.style.color='white'" onMouseOver="this.style.color='white'">Login</a></button>
-                 <button style="margin-left: 10px" class="btn btn-info" type="submit"><a href="checkout.jsp" style="text-decoration: none; color: white;">Carrinho</a></button>
+                 <button style="margin-left: 10px" class="btn btn-info" type="submit">
+                     <a href="checkout.jsp" style="text-decoration: none; color: white;">Carrinho</a></button>
             </form>
         </div>
         </nav>
@@ -52,35 +54,43 @@
                 request.setAttribute("listaProduto", pDAO.buscaProdutos());
                 List produtos = (List) request.getAttribute("listaProduto");
                 if (produtos != null) {
-                    for (int cont = 0; cont < produtos.size(); cont++) {
-                    Produtos p = new Produtos();
-                    p = (Produtos) produtos.get(cont);
-                        out.print("<form name='frm' method='post' action='CarrinhoController?operacao=3' enctype='multipart/form-data'>");
-                        out.print("<input type='hidden' name='id_produto' value='"+ p.getIdProduto() +"'>");
-                        out.print("<div class='row' style='margin-left: 60px'>");
-                            out.print("<div class='col-sm-3'>");
-                                out.print("<div class='card text-center' style='width: 18rem;'>");
-                                    out.print("<div class='card-body'>");
-                                    out.print("<h5 class='card-title'>" + p.getNome() + "</h5>");
-                                    out.print("<p class='card-text'> R$ " + p.getValor() + "</p>");
-                                    out.print("<select class='form-select' aria-label='Default select example'>");
-                                        out.print("<option selected'> Escolha a qtd </option>");
-                                        out.print("<option value='1' name='qtd_itens'> 1 </option>");
-                                        out.print("<option value='2' name='qtd_itens'> 2 </option>");
-                                        out.print("<option value='3' name='qtd_itens'> 3 </option>");
-                                        out.print("<option value='4' name='qtd_itens'> 4 </option>");
-                                        out.print("<option value='5' name='qtd_itens'> 5 </option>");
-                                        out.print("</select>");
-                                    out.print("<br>");
-                                    out.print("<button class='btn btn-success' type='submit'>Adicionar ao carrinho</button>");
-                                    out.print("</div>");
-                                out.print("</div>");
-                            out.print("</div>");
-                        out.print("</div>");
-                        out.print("</form>");
-                    }
-                }
             %>
+        <div class='row' style='margin-left: 60px'>
+            <%
+                    for (int cont = 0; cont < produtos.size(); cont++) {
+                        Produtos p = (Produtos) produtos.get(cont);
+            %>
+            <div class='col-3'>
+                <form name='frm' action='CarrinhoController?operacao=3' method='post'>
+                    <input type='hidden' name='id_produto' value='<%= p.getIdProduto() %>'>
+                    <input type='hidden' name='nome_produto' value='<%= p.getNome() %>'>
+                    <input type='hidden' name='valor_produto' value='<%= p.getValor()%>'>
+                    <input type='hidden' name='promo_produto' value='<%= p.getIdPromocao()%>'>
+                    <div class='card text-center' style='width: 18rem;'>
+                        <div class='card-body'>
+                            <h5 class='card-title' ><%= p.getNome() %></h5>
+                            <p class='card-text' > R$ <%= p.getValor() %></p>
+                            <select class='form-select' aria-label='Default select example' name='qtd_itens'>
+                                <option selected' name="qtd_itens"> Escolha a qtd </option>
+                                <option value='1'> 1 </option>
+                                <option value='2'> 2 </option>
+                                <option value='3'> 3 </option>
+                                <option value='4'> 4 </option>
+                                <option value='5'> 5 </option>
+                            </select>
+                            <br>
+                            <button class='btn btn-success' type='submit'> Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        <%
+                }
+        %>
+        </div>
+        <%
+            }
+        %>
 
             <br>
             <br>

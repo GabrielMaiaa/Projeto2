@@ -1,12 +1,10 @@
-<%@page import= "VO.Produtos" %>
 <%@page import= "VO.Promocao" %>
 <%@page import="java.util.List"%>
 
 <%@ page import="java.sql.*" %>
 <%@page import= "Conexao.Conexao" %>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@ page trimDirectiveWhitespaces="true" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
 <html>
@@ -19,31 +17,27 @@
              rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     </head>
     <body>
-        <%
-           Produtos pNovo = (Produtos) request.getAttribute("Produtos");
- 
-        %>
         <br>
         <h1 class="text-center"> Inserir Produtos novo </h1>
         <br><br>
-            <form class="container center" name="frm" method="post" action="ProdutosController?operacao=5" enctype="multipart/form-data" style="margin-right: 60px;">
+            <form class="container center" action="ProdutosController?operacao=5" method="post" style="margin-right: 60px;">
                 <div class="row mb-3">
-                  <label for="inputEmail3" class="col-sm-2 col-form-label">Nome </label>
+                  <label for="nome" class="col-sm-2 col-form-label">Nome </label>
                   <div class="col-sm-5">
-                    <input type="text" class="form-control" name="nome"  >
+                    <input type="text" class="form-control" name="nome" />
                   </div>
                 </div>
                 <div class="row mb-3">
-                  <label for="inputPassword3" class="col-sm-2 col-form-label">Valor</label>
+                  <label for="valor" class="col-sm-2 col-form-label">Valor</label>
                   <div class="col-sm-5">
-                    <input type="number" class="form-control" name="valor" >
+                    <input type="number" class="form-control" name="valor" step="any">
                   </div>
                 </div>
                 
-                <div class="input-group mb-3">
-                    <label class="input-group-text" for="inputGroupSelect01">Promoção</label>
-                    <select class="form-select" id="inputGroupSelect01">
-                    <option selected>Escolha a promoção...</option>  
+                <div class="input-group mb-3" style="width: 748px;">
+                    <label class="input-group-text" for="id_promocao">Promoção</label>
+                    <select class="form-select"  name="id_promocao"  />
+                    <option selected>Nenhuma</option>  
                   <%
                        PreparedStatement ps; // estrutura o sql
                         ResultSet rs; //armazenará o resultado do bd
@@ -55,7 +49,7 @@
                         rs = ps.executeQuery();
 
                         while(rs.next()){
-                            out.print("<option name='id_promocao' value='" + rs.getInt(1) + "'> " + rs.getString(2) + "</option>");
+                            out.print("<option  value='" + rs.getInt(1) + "'> " + rs.getString(2) + "</option>");
                         }
                    %>
                     </select>

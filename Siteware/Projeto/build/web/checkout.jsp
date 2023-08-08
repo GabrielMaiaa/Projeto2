@@ -14,12 +14,12 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.115.4">
-    <title>Checkout example Â· Bootstrap v5.3</title>
+    <title>Checkout </title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
               rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -111,8 +111,8 @@
     <div class="py-5 text-center">
       <h2>Checkout form</h2></div>
 
-    <div class="row g-6">
-      <div class="col-md-6 col-lg-4 order-md-last">
+    <div class="row g-5">
+      <div class="col-md-5 col-lg-4 order-md-last">
         <h4 class="d-flex justify-content-between align-items-center mb-3">
           <span class="text-primary">Carrinho</span>
           <%
@@ -123,7 +123,7 @@
 
                 con = new Conexao().conectar();
                 
-                String sql = "SELECT id_carrinho, produto.id_produto, produto_nome, produto_valor, id_cliente, itens_qtd FROM carrinho INNER JOIN produto ON produto.id_produto = carrinho.id_produto";
+                String sql = "SELECT id_carrinho, produto.id_produto, id_cliente, itens_qtd FROM carrinho INNER JOIN produto ON produto.id_produto = carrinho.id_produto";
                 ps = con.prepareStatement(sql);
                 rs = ps.executeQuery();
                 
@@ -136,14 +136,16 @@
                     for (int cont = 0; cont < carrinho.size(); cont++) {
                         
                         carr = (Carrinho) carrinho.get(cont);
+                        Produtos p = new Produtos();
+                        p.setIdProduto(carr.getId_produto());
                         out.print("<ul class='list-group mb-3'>");
                             out.print("<li class='list-group-item d-flex justify-content-between lh-sm'>");
                                 out.print("<div>");
                                     out.print("<h6 class='my-0'>Nome Produto</h6>");
                                     out.print("<small class='text-body-secondary'>"+ carr.getProdutoNome() +"</small>");
                                 out.print("</div>");
-                                out.print("<p class='text-body-secondary'>R$   QTD.</p>");
-                                out.print("<p class='text-body-secondary'> " + carr.getProdutoValor() + " " + carr.getItens_qtd() +"</p>");
+                                out.print("<span class='text-body-secondary'>R$  QTD.</span>");
+                                out.print("<span class='text-body-secondary'> " + carr.getProdutoValor() + " "+carr.getItens_qtd() +"</span>");
                             out.print("</li>");
                 }
               out.print("</h4>");
@@ -160,7 +162,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-6 col-lg-8">
+      <div class="col-md-7 col-lg-8">
         <h4 class="mb-3">Endereço</h4>
         <form class="needs-validation" name="frm" method="post" action="CarrinhoController?operacao=2" enctype="multipart/form-data" novalidate>
             <div class="row g-3">
@@ -177,6 +179,17 @@
               <input type="text" class="form-control" id="lastName" placeholder="" value="" >
               <div class="invalid-feedback">
                 Ultimo nome é requerido.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label">Login</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Username" >
+              <div class="invalid-feedback">
+                  Seu usuario érequerido.
+                </div>
               </div>
             </div>
 

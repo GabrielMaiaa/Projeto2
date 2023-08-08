@@ -7,21 +7,17 @@ public class Produtos {
     private String nome;
     private Double valor;
     private Integer idPromocao;
-    private Part imagem;
-    private String nomeArquivo;
 
     // Construtor vazio
     public Produtos() {
     }
 
     // Construtor com todos os parâmetros
-    public Produtos(Integer idProduto, String nome, Double valor, Integer idPromocao, Part imagem,String nomeArquivo) {
+    public Produtos(Integer idProduto, String nome, Double valor, Integer idPromocao) {
         this.idProduto = idProduto;
         this.nome = nome;
         this.valor = valor;
         this.idPromocao = idPromocao;
-        this.imagem = imagem;
-        this.nomeArquivo = nomeArquivo;
     }
 
     // Getters e setters
@@ -62,21 +58,6 @@ public class Produtos {
         this.idPromocao = idPromocao;
     }
 
-    public Part getImagem() {
-        return imagem;
-    }
-
-    public void setImagem(Part imagem) {
-        this.imagem = imagem;
-    }
-
-    public String getNomeArquivo() {
-        return nomeArquivo;
-    }
-
-    public void setNomeArquivo(String nomeArquivo) {
-        this.nomeArquivo = nomeArquivo;
-    }
     
     
 }

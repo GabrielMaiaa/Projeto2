@@ -25,6 +25,31 @@ public class ProdutosController extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        
+//        int operacao = Integer.parseInt(request.getParameter("operacao"));
+//            String nome =  request.getParameter("nome");
+//            Double valor = Double.parseDouble(request.getParameter("valor"));
+//            int idPromocao = Integer.parseInt(request.getParameter("id_promocao"));
+//        
+//        if (operacao == 5) { // Verifica se a operação é inserção
+////            String nome = request.getParameter("nome");
+////            Double valor = Double.parseDouble(request.getParameter("valor"));
+////            int idPromocao = Integer.parseInt(request.getParameter("id_promocao"));
+//
+//            Produtos produtoNovo = new Produtos();
+//            produtoNovo.setNome(nome);
+//            produtoNovo.setValor(valor);
+//            produtoNovo.setIdPromocao(idPromocao);
+//
+//            ProdutosDAO produtoDAO = new ProdutosDAO();
+//            boolean sucesso = produtoDAO.inserirProduto(produtoNovo);
+//
+//            if (sucesso) {
+//                response.sendRedirect("resultado.jsp?operacao=1");
+//            } else {
+//                response.sendRedirect("resultado.jsp?operacao=2");
+//            }
+//        }
         response.setContentType("text/html;charset=UTF-8");
         ProdutosDAO p = new ProdutosDAO();
         PromocaoDAO promo = new PromocaoDAO();
@@ -74,12 +99,9 @@ public class ProdutosController extends HttpServlet {
                 break;
             case 5: //INSERIR NOVO FILME     
                 request.setAttribute("listaPromocao", promo.buscaPromocao());
-                RequestDispatcher rd2 = request.getRequestDispatcher("/inserirProduto.jsp");
-                rd2.forward(request, response);
-                
-                String nome = request.getParameter("nome");
-                Double valor = Double.parseDouble(request.getParameter("valor"));
-                int idPromocao = Integer.parseInt(request.getParameter("id_promocao"));
+                    String nome =  request.getParameter("nome");
+                    Double valor = Double.parseDouble(request.getParameter("valor"));
+                    int idPromocao = Integer.parseInt(request.getParameter("id_promocao"));
                 
                 System.out.println(idPromocao);
                 

@@ -46,24 +46,26 @@ public class CarrinhoController extends HttpServlet {
                 break;
             case 2: // exclusão
                 if(car.excluir()){
-                     response.sendRedirect("resultadoAluguel.jsp?operacao=1");
+                     response.sendRedirect("index.jsp");
                 }else{
-                    response.sendRedirect("resultadoAluguel.jsp?operacao=2");                
+                    response.sendRedirect("index.jsp");                
                 }
                 break;
             case 3:
                 request.setAttribute("listaItensCarrinho", car.buscaItensCarrinho());
-                RequestDispatcher rd2 = request.getRequestDispatcher("/checkout.jsp");
-                rd2.forward(request, response);
-                
                 int id_produto = Integer.parseInt(request.getParameter("id_produto"));
                 int id_cliente = 1;
                 int itens_qtds = Integer.parseInt(request.getParameter("qtd_itens"));
+                
+                String nome_produto = request.getParameter("nome_produto");
+                Double valor_produto = Double.parseDouble(request.getParameter("valor_produto"));
                 
                 Carrinho carrinho = new Carrinho();
                 carrinho.setId_produto(id_produto);
                 carrinho.setId_cliente(id_cliente);
                 carrinho.setItens_qtd(itens_qtds);
+                carrinho.setProdutoNome(nome_produto);
+                carrinho.setProdutoValor(valor_produto);
  
                 if(car.inserirItensCarrinho(carrinho)){
                      response.sendRedirect("index.jsp");
